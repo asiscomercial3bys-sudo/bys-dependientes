@@ -1,0 +1,21 @@
+databases:
+  - name: puntos-db
+    plan: free
+    databaseName: puntos
+    user: puntos_user
+
+services:
+  - type: web
+    name: bys-dependientes
+    plan: free
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: puntos-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: FRONTEND_PATH
+        value: /app/public-frontend

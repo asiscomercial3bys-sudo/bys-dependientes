@@ -1,0 +1,25 @@
+<div class="page">
+  <h2 class="section-title">Mi cuenta</h2>
+
+  <div class="card" style="margin-bottom:20px;">
+    <p style="font-size:0.85rem;color:var(--color-muted);margin-bottom:4px;">Código de acceso</p>
+    <p style="font-size:1.2rem;font-weight:600;letter-spacing:0.1em;" id="config-codigo">—</p>
+  </div>
+
+  <div class="card" style="margin-bottom:20px;">
+    <p style="font-size:0.85rem;color:var(--color-muted);margin-bottom:4px;">Tienda</p>
+    <p style="font-weight:500;" id="config-tienda">—</p>
+  </div>
+
+  <form id="config-form" style="margin-bottom:24px;">
+    <div class="form-group">
+      <label for="config-nombre">Nombre</label>
+      <input type="text" id="config-nombre" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar cambios</button>
+  </form>
+
+  <button class="btn btn-outline" id="btn-logout" style="color:var(--color-error);border-color:var(--color-error);">
+    Cerrar sesión
+  </button>
+</div>

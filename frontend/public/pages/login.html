@@ -1,0 +1,75 @@
+<div class="page" style="padding-top:0;">
+  <div class="login-header">
+    <h1>Puntos Belleza</h1>
+    <p>Registra tus ventas, acumula puntos</p>
+  </div>
+
+  <!-- Login -->
+  <div id="login-section">
+    <form id="login-form">
+      <div id="login-error" class="alert alert-error" style="display:none;"></div>
+      <div class="form-group">
+        <label for="nit">NIT de la tienda</label>
+        <input type="text" id="nit" name="nit" placeholder="Ej: 900123456" required inputmode="numeric">
+      </div>
+      <div class="form-group">
+        <label for="codigo">Código de acceso</label>
+        <input type="text" id="codigo" name="codigo" placeholder="Tu código de 6 dígitos" required inputmode="numeric" maxlength="6">
+      </div>
+      <div class="form-group">
+        <label for="pin">PIN</label>
+        <input type="password" id="pin" name="pin" placeholder="••••" required inputmode="numeric" maxlength="6">
+      </div>
+      <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+    </form>
+    <div style="margin-top:12px;text-align:center;">
+      <a href="#" id="show-recover" class="btn-link">Olvidé mi PIN</a>
+    </div>
+    <div class="login-divider">o</div>
+    <button class="btn btn-outline" id="show-register">Soy nueva, registrarme</button>
+  </div>
+
+  <!-- Register -->
+  <div id="register-section" style="display:none;">
+    <h2 class="section-title" style="margin-bottom:16px;">Crear cuenta</h2>
+    <form id="register-form">
+      <div id="register-msg" class="alert" style="display:none;"></div>
+      <div class="form-group">
+        <label for="nombre">Tu nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
+      </div>
+      <div class="form-group">
+        <label for="nitTienda">NIT de tu tienda</label>
+        <input type="text" id="nitTienda" name="nitTienda" placeholder="Ej: 900123456" required inputmode="numeric">
+      </div>
+      <div class="form-group">
+        <label for="regPin">Crea un PIN (mín. 4 dígitos)</label>
+        <input type="password" id="regPin" name="regPin" placeholder="••••" required inputmode="numeric" minlength="4" maxlength="6">
+      </div>
+      <button type="submit" class="btn btn-primary">Registrarme</button>
+    </form>
+    <button class="btn btn-link" id="show-login" style="margin-top:12px;width:100%;text-align:center;">Ya tengo cuenta, iniciar sesión</button>
+  </div>
+
+  <!-- Recover PIN -->
+  <div id="recover-section" style="display:none;">
+    <h2 class="section-title" style="margin-bottom:16px;">Recuperar PIN</h2>
+    <form id="recover-form">
+      <div id="recover-msg" class="alert" style="display:none;"></div>
+      <div class="form-group">
+        <label for="recNit">NIT de tu tienda</label>
+        <input type="text" id="recNit" name="recNit" placeholder="Ej: 900123456" required inputmode="numeric">
+      </div>
+      <div class="form-group">
+        <label for="recCodigo">Tu código de acceso</label>
+        <input type="text" id="recCodigo" name="recCodigo" placeholder="Tu código de 6 dígitos" required inputmode="numeric" maxlength="6">
+      </div>
+      <div class="form-group">
+        <label for="recPin">Nuevo PIN (mín. 4 dígitos)</label>
+        <input type="password" id="recPin" name="recPin" placeholder="••••" required inputmode="numeric" minlength="4" maxlength="6">
+      </div>
+      <button type="submit" class="btn btn-primary">Cambiar PIN</button>
+    </form>
+    <button class="btn btn-link" id="show-login-from-recover" style="margin-top:12px;width:100%;text-align:center;">Volver a iniciar sesión</button>
+  </div>
+</div>

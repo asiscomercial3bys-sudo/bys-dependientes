@@ -1,0 +1,84 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Tienda {
+  nit          String        @id
+  nombre       String
+  activa       Boolean       @default(true)
+  dependientes Dependiente[]
+
+  @@map("tiendas")
+}
+
+model Dependiente {
+  id            String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  nombre        String
+  nitTienda     String   @map("nit_tienda")
+  codigoAcceso  String   @unique @map("codigo_acceso")
+  pinHash       String   @map("pin_hash")
+  fechaRegistro DateTime @default(now()) @map("fecha_registro")
+  tienda        Tienda   @relation(fields: [nitTienda], references: [nit])
+  ventas        Venta[]
+
+  @@map("dependientes")
+}
+
+model Marca {
+  id        String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  nombre    String
+  imagenUrl String?    @map("imagen_url")
+  orden     Int        @default(0)
+  productos Producto[]
+
+  @@map("marcas")
+}
+
+model Producto {
+  id              String  @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  codigo          String? @unique
+  nombre          String
+  marcaId         String  @map("marca_id") @db.Uuid
+  modoDeUso       String? @map("modo_de_uso")
+  imagenUrl       String? @map("imagen_url")
+  puntosPorVenta  Int     @default(10) @map("puntos_por_venta")
+  codigoBarras    String? @map("codigo_barras")
+  marca           Marca   @relation(fields: [marcaId], references: [id])
+  ventas          Venta[]
+
+  @@map("productos")
+}
+
+model Venta {
+  id            String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  dependienteId String      @map("dependiente_id") @db.Uuid
+  productoId    String      @map("producto_id") @db.Uuid
+  cantidad      Int         @default(1)
+  puntosGanados Int         @map("puntos_ganados")
+  fecha         DateTime    @default(now())
+  dependiente   Dependiente @relation(fields: [dependienteId], references: [id])
+  producto      Producto    @relation(fields: [productoId], references: [id])
+
+  @@map("ventas")
+}
+
+model NivelPremio {
+  id                String  @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  nombre            String
+  puntosMinimos     Int     @map("puntos_minimos")
+  descripcionPremio String? @map("descripcion_premio")
+
+  @@map("niveles_premio")
+}
+
+model Config {
+  clave String @id
+  valor String
+
+  @@map("config")
+}

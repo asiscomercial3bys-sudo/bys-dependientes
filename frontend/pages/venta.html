@@ -1,0 +1,27 @@
+<div class="page">
+  <h2 class="section-title">Registrar venta</h2>
+  <p style="color:var(--color-muted);margin-bottom:16px;font-size:0.9rem;">Busca el producto vendido y registra la cantidad</p>
+
+  <div class="search-bar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+    </svg>
+    <input type="text" id="venta-search" placeholder="Buscar producto...">
+  </div>
+  <div id="venta-product-list"></div>
+
+  <div id="venta-selected"></div>
+
+  <div id="venta-form-section" style="display:none;">
+    <div class="form-group">
+      <label for="venta-cantidad">Cantidad vendida</label>
+      <input type="number" id="venta-cantidad" value="1" min="1" inputmode="numeric">
+    </div>
+    <button class="btn btn-primary" id="venta-confirm">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+      Confirmar venta
+    </button>
+  </div>
+
+  <div id="venta-result" style="display:none;"></div>
+</div>

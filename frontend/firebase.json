@@ -1,0 +1,46 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "/auth/**",
+        "run": { "serviceId": "puntos-api", "region": "us-central1" }
+      },
+      {
+        "source": "/inicio/**",
+        "run": { "serviceId": "puntos-api", "region": "us-central1" }
+      },
+      {
+        "source": "/productos/**",
+        "run": { "serviceId": "puntos-api", "region": "us-central1" }
+      },
+      {
+        "source": "/ventas/**",
+        "run": { "serviceId": "puntos-api", "region": "us-central1" }
+      },
+      {
+        "source": "/puntos/**",
+        "run": { "serviceId": "puntos-api", "region": "us-central1" }
+      },
+      {
+        "source": "/perfil/**",
+        "run": { "serviceId": "puntos-api", "region": "us-central1" }
+      },
+      {
+        "source": "/health",
+        "run": { "serviceId": "puntos-api", "region": "us-central1" }
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "/sw.js",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+      }
+    ]
+  }
+}
