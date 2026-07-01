@@ -32,7 +32,7 @@ router.get('/', async (req: Request, res: Response) => {
 router.get('/barcode/:code', async (req: Request, res: Response) => {
   try {
     const producto = await prisma.producto.findFirst({
-      where: { codigoBarras: req.params.code },
+      where: { codigoBarras: String(req.params.code) },
       include: { marca: { select: { nombre: true, imagenUrl: true } } },
     });
     if (!producto) {
