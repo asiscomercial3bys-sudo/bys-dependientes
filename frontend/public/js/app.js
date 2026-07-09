@@ -256,7 +256,11 @@ window.pageInit = {
       btnScan.style.display = '';
     };
 
-    async function handleBarcode(code) {
+    async function handleBarcode(rawCode) {
+      // Algunos escáneres anteponen un identificador de simbología (ej: ]C1, ]E0).
+      // Es siempre "]" + 2 caracteres; lo quitamos para dejar el código real.
+      let code = (rawCode || '').trim();
+      if (code.startsWith(']') && code.length > 3) code = code.slice(3);
       stopScanner();
       scannerContainer.style.display = 'none';
       scannerResult.style.display = 'block';

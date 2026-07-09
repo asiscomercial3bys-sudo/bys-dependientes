@@ -32,8 +32,13 @@ router.get('/', async (req: Request, res: Response) => {
 
 router.get('/barcode/:code', async (req: Request, res: Response) => {
   try {
+    // Algunos escáneres anteponen un identificador de simbología (ej: ]C1, ]E0):
+    // siempre "]" + 2 caracteres. Lo quitamos para dejar el código real.
+    let code = String(req.params.code).trim();
+    if (code.startsWith(']') && code.length > 3) code = code.slice(3);
+
     const producto = await prisma.producto.findFirst({
-      where: { codigoBarras: String(req.params.code) },
+      where: { codigoBarras: code },
       include: { marca: { select: { nombre: true, imagenUrl: true } } },
       omit: { precio: true },
     });
