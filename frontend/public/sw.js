@@ -1,4 +1,4 @@
-const CACHE_NAME = 'puntos-v6';
+const CACHE_NAME = 'puntos-v7';
 const STATIC_ASSETS = [
   '/',
   '/css/variables.css',

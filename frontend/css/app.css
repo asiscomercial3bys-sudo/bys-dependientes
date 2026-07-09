@@ -275,6 +275,39 @@ a { color: var(--color-primary); text-decoration: none; }
   padding: 6px 16px; border-radius: var(--radius-full);
 }
 
+/* Casillas de autorización (registro) */
+.form-checks {
+  display: flex; flex-direction: column; gap: 12px;
+  margin: 4px 0 20px;
+}
+.form-check {
+  display: flex; align-items: flex-start; gap: 10px;
+  font-size: 0.85rem; color: var(--color-text); line-height: 1.45;
+  cursor: pointer;
+}
+.form-check input[type="checkbox"] {
+  width: 20px; height: 20px; margin-top: 1px;
+  accent-color: var(--color-primary);
+  flex-shrink: 0; cursor: pointer;
+}
+.policy-link {
+  color: var(--color-primary); font-weight: 600; text-decoration: underline;
+}
+
+/* Contenido de políticas en el modal */
+.policy-content h3 {
+  font-size: 1.2rem; color: var(--color-text); margin-bottom: 14px;
+}
+.policy-content p {
+  font-size: 0.9rem; line-height: 1.6; color: var(--color-text); margin-bottom: 10px;
+}
+.policy-content ul, .policy-content ol {
+  margin: 0 0 12px 20px;
+}
+.policy-content li {
+  font-size: 0.9rem; line-height: 1.55; color: var(--color-text); margin-bottom: 8px;
+}
+
 /* Modal / Bottom sheet */
 .modal-overlay {
   position: fixed; inset: 0;

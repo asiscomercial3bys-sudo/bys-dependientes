@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="/icons/icon-192.png">
   <title>B&S DEPENDIENTES</title>
   <link rel="stylesheet" href="/css/variables.css">
-  <link rel="stylesheet" href="/css/app.css?v=5">
+  <link rel="stylesheet" href="/css/app.css?v=6">
   <link rel="stylesheet" href="/css/components/navbar.css">
   <link rel="stylesheet" href="/css/components/cards.css">
 </head>
@@ -110,6 +110,16 @@
           <div class="form-group">
             <label for="regPin">Crea un PIN (mín. 4 dígitos)</label>
             <input type="password" id="regPin" name="regPin" placeholder="••••" required inputmode="numeric" minlength="4" maxlength="6">
+          </div>
+          <div class="form-checks">
+            <label class="form-check">
+              <input type="checkbox" id="reg-datos" name="regDatos">
+              <span>Autorizo el <a href="#" class="policy-link" data-policy="datos">tratamiento de mis datos personales</a>.</span>
+            </label>
+            <label class="form-check">
+              <input type="checkbox" id="reg-terminos" name="regTerminos">
+              <span>Acepto las <a href="#" class="policy-link" data-policy="terminos">políticas y condiciones de redención de bonificaciones</a>.</span>
+            </label>
           </div>
           <button type="submit" class="btn btn-primary">Registrarme</button>
         </form>

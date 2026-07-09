@@ -113,10 +113,29 @@ window.pageInit = {
       }
     };
 
+    // Enlaces para leer las políticas completas
+    document.querySelectorAll('.policy-link').forEach((link) => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        showPolicyModal(link.dataset.policy);
+      });
+    });
+
     registerForm.onsubmit = async (e) => {
       e.preventDefault();
       registerMsg.style.display = 'none';
       registerMsg.className = 'alert';
+
+      const datosOk = document.getElementById('reg-datos').checked;
+      const terminosOk = document.getElementById('reg-terminos').checked;
+      if (!datosOk || !terminosOk) {
+        registerMsg.className = 'alert alert-error';
+        registerMsg.textContent = 'Debes autorizar el tratamiento de datos y aceptar las políticas y condiciones para continuar.';
+        registerMsg.style.display = 'block';
+        return;
+      }
+
       const nombre = registerForm.nombre.value.trim();
       const nitTienda = registerForm.nitTienda.value.trim();
       const pin = registerForm.regPin.value;
@@ -394,6 +413,55 @@ function showProductModal(name, modo) {
     <div class="modal-sheet">
       <h2 class="section-title" style="margin-bottom:16px;">${name}</h2>
       <p style="line-height:1.6;">${modo}</p>
+      <button class="btn btn-primary" style="margin-top:20px;" id="close-modal">Cerrar</button>
+    </div>`;
+  document.body.appendChild(overlay);
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay || e.target.id === 'close-modal') overlay.remove();
+  });
+}
+
+const POLICIES = {
+  datos: {
+    titulo: 'Autorización de tratamiento de datos personales',
+    html: `
+      <p>En cumplimiento de la Ley 1581 de 2012 y el Decreto 1074 de 2015 de la República de Colombia, autorizo de manera libre, previa, expresa e informada a <strong>Belleza & Salud</strong>, como responsable del tratamiento, para recolectar, almacenar, usar, actualizar, circular y en general tratar mis datos personales con las siguientes finalidades:</p>
+      <ul>
+        <li>Gestionar mi participación en el programa de incentivos <strong>B&S Dependientes</strong>.</li>
+        <li>Registrar y verificar las ventas reportadas y calcular las bonificaciones a que haya lugar.</li>
+        <li>Contactarme por medios físicos, electrónicos o telefónicos para asuntos relacionados con el programa.</li>
+        <li>Realizar el pago de las bonificaciones y dar cumplimiento a obligaciones legales, contables y tributarias.</li>
+      </ul>
+      <p>Declaro que se me informó que como titular tengo derecho a conocer, actualizar, rectificar y suprimir mis datos, así como a revocar esta autorización, mediante solicitud dirigida a los canales de atención de Belleza & Salud. El tratamiento se realizará conforme a la Política de Tratamiento de Datos Personales de la Compañía.</p>
+    `,
+  },
+  terminos: {
+    titulo: 'Políticas y condiciones de redención de bonificaciones',
+    html: `
+      <ol>
+        <li><strong>Bonificación.</strong> El programa reconoce una bonificación equivalente al 2% del valor de los productos en presentación pote vendidos y reportados, convertida en puntos, donde cada $100 equivale a 1 punto.</li>
+        <li><strong>Productos válidos.</strong> Únicamente participan los productos en pote codificados por el cliente. No aplican sachets, sprays, viales, kits, combos ni muestras.</li>
+        <li><strong>Validación por recompra.</strong> Para el pago de la bonificación, el cliente debe realizar una recompra igual o superior a lo reportado por la dependiente en su punto de venta.</li>
+        <li><strong>Facturación y pago.</strong> La factura se genera en el mes siguiente al mes en que se alcanzó la meta. El pago se realiza única y exclusivamente a la dependiente que registró las ventas.</li>
+        <li><strong>Reporte veraz.</strong> Solo deben reportarse ventas reales de productos codificados por el cliente.</li>
+        <li><strong>Fraude.</strong> En caso de detectarse fraude, se bloqueará la tienda completa sin importar el número de dependientes, y la tienda no podrá participar en futuros concursos o programas.</li>
+        <li><strong>Modificaciones.</strong> Belleza & Salud podrá modificar o dar por terminado el programa y sus condiciones en cualquier momento, informando a los participantes.</li>
+      </ol>
+    `,
+  },
+};
+
+function showPolicyModal(type) {
+  const policy = POLICIES[type];
+  if (!policy) return;
+  const overlay = document.createElement('div');
+  overlay.className = 'modal-overlay';
+  overlay.innerHTML = `
+    <div class="modal-sheet">
+      <div class="policy-content">
+        <h3>${policy.titulo}</h3>
+        ${policy.html}
+      </div>
       <button class="btn btn-primary" style="margin-top:20px;" id="close-modal">Cerrar</button>
     </div>`;
   document.body.appendChild(overlay);
