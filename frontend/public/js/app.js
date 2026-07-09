@@ -171,19 +171,6 @@ window.pageInit = {
       }
 
       document.getElementById('texto-premios').textContent = data.textoPremios;
-
-      const nivelesContainer = document.getElementById('niveles-list');
-      const badges = { 'bronce': '🥉', 'plata': '🥈', 'oro': '🥇' };
-      nivelesContainer.innerHTML = data.niveles.map((n) => {
-        const key = n.nombre.toLowerCase();
-        return `<div class="nivel-card">
-          <div class="nivel-badge ${key}">${badges[key] || '⭐'}</div>
-          <div class="nivel-info">
-            <h4>${n.nombre} — ${n.puntosMinimos} pts</h4>
-            <p>${n.descripcionPremio || ''}</p>
-          </div>
-        </div>`;
-      }).join('');
     } catch (err) {
       console.error(err);
     }
@@ -352,23 +339,6 @@ window.pageInit = {
     try {
       const data = await api.resumenPuntos();
       document.getElementById('total-puntos').textContent = data.totalPuntos;
-
-      const nivelEl = document.getElementById('nivel-actual');
-      nivelEl.textContent = data.nivelActual ? data.nivelActual.nombre : 'Sin nivel';
-
-      const progressBar = document.getElementById('progress-fill');
-      const progressText = document.getElementById('progress-text');
-      if (data.siguienteNivel) {
-        const prevMin = data.nivelActual ? data.nivelActual.puntosMinimos : 0;
-        const nextMin = data.siguienteNivel.puntosMinimos;
-        const range = nextMin - prevMin;
-        const progress = range > 0 ? Math.min(((data.totalPuntos - prevMin) / range) * 100, 100) : 0;
-        progressBar.style.width = `${progress}%`;
-        progressText.textContent = `Faltan ${data.puntosFaltantes} pts para ${data.siguienteNivel.nombre}`;
-      } else {
-        progressBar.style.width = '100%';
-        progressText.textContent = '¡Nivel máximo alcanzado!';
-      }
 
       const historial = document.getElementById('historial-ventas');
       if (data.ultimasVentas.length) {
