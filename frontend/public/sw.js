@@ -1,5 +1,5 @@
-const CACHE_NAME = 'puntos-v7';
-const STATIC_ASSETS = [
+const CACHE_NAME = 'puntos-v8';
+const APP_SHELL = [
   '/',
   '/css/variables.css',
   '/css/app.css',
@@ -9,18 +9,17 @@ const STATIC_ASSETS = [
   '/js/router.js',
   '/js/api.js',
   '/js/auth.js',
-  '/pages/login.html',
-  '/pages/inicio.html',
-  '/pages/productos.html',
-  '/pages/venta.html',
-  '/pages/puntos.html',
-  '/pages/config.html',
   '/manifest.json',
 ];
 
+const API_PREFIXES = ['/auth', '/ventas', '/puntos', '/productos', '/inicio', '/perfil', '/health'];
+
 self.addEventListener('install', (e) => {
   e.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(STATIC_ASSETS))
+    caches.open(CACHE_NAME).then((cache) =>
+      // No bloquear la instalación si algún recurso falla
+      Promise.allSettled(APP_SHELL.map((url) => cache.add(url)))
+    )
   );
   self.skipWaiting();
 });
@@ -37,13 +36,22 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
   const url = new URL(e.request.url);
-  if (url.pathname.startsWith('/auth') || url.pathname.startsWith('/ventas') ||
-      url.pathname.startsWith('/puntos') || url.pathname.startsWith('/productos') ||
-      url.pathname.startsWith('/inicio') || url.pathname.startsWith('/perfil') ||
-      url.pathname.startsWith('/health')) {
-    return;
-  }
+
+  // No interceptar las llamadas al API: van directo a la red
+  if (API_PREFIXES.some((p) => url.pathname.startsWith(p))) return;
+
+  // Primero red (siempre la última versión); si no hay conexión, usa la caché
   e.respondWith(
-    caches.match(e.request).then((cached) => cached || fetch(e.request))
+    fetch(e.request)
+      .then((res) => {
+        if (res && res.status === 200 && url.origin === self.location.origin) {
+          const copy = res.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(e.request, copy));
+        }
+        return res;
+      })
+      .catch(() =>
+        caches.match(e.request).then((cached) => cached || caches.match('/'))
+      )
   );
 });
