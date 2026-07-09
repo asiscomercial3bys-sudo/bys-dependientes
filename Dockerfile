@@ -18,4 +18,6 @@ COPY frontend/public ./public-frontend
 ENV FRONTEND_PATH=/app/public-frontend
 
 EXPOSE 3000
-CMD ["sh", "-c", "npx prisma db push --skip-generate && node dist/index.js"]
+# Arranque directo del servidor (rápido). Los cambios de esquema se aplican
+# aparte con "prisma db push", no en cada arranque del contenedor.
+CMD ["node", "dist/index.js"]
