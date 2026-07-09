@@ -204,6 +204,62 @@ a { color: var(--color-primary); text-decoration: none; }
   font-size: 0.7rem; color: var(--color-muted); text-align: center; padding: 4px;
 }
 
+/* Premio destacado 2% */
+.premio-hero {
+  display: flex; align-items: center; gap: 18px;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  border-radius: var(--radius-lg);
+  padding: 20px 22px;
+  margin-bottom: 14px;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+}
+.premio-hero::after {
+  content: ''; position: absolute; right: -30px; top: -30px;
+  width: 130px; height: 130px; border-radius: 50%;
+  background: rgba(255, 255, 255, 0.10);
+}
+.premio-hero-pct {
+  font-family: var(--font-display);
+  font-size: 3.4rem; font-weight: 700; line-height: 1;
+  color: #fff; flex-shrink: 0; z-index: 1;
+}
+.premio-hero-pct span { font-size: 1.8rem; vertical-align: super; }
+.premio-hero-info { z-index: 1; }
+.premio-hero-info h3 {
+  color: #fff; font-size: 1.15rem; margin-bottom: 4px;
+}
+.premio-hero-info p {
+  color: rgba(255, 255, 255, 0.92); font-size: 0.9rem; line-height: 1.45;
+}
+.premio-hero-info strong { font-weight: 600; }
+
+/* Estado "Muy pronto" (Modos de uso) */
+.coming-soon {
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+  padding: 48px 24px;
+}
+.coming-soon-icon {
+  width: 96px; height: 96px; border-radius: var(--radius-full);
+  background: rgba(233, 30, 140, 0.08);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--color-primary); margin-bottom: 20px;
+}
+.coming-soon-icon svg { width: 44px; height: 44px; }
+.coming-soon h3 { font-size: 1.5rem; color: var(--color-text); margin-bottom: 10px; }
+.coming-soon p {
+  font-size: 0.95rem; color: var(--color-muted); line-height: 1.6;
+  max-width: 300px; margin-bottom: 20px;
+}
+.coming-soon-badge {
+  display: inline-block; font-size: 0.75rem; font-weight: 600;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  color: var(--color-accent);
+  background: rgba(123, 75, 148, 0.10);
+  padding: 6px 16px; border-radius: var(--radius-full);
+}
+
 /* Modal / Bottom sheet */
 .modal-overlay {
   position: fixed; inset: 0;

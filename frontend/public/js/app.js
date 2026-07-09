@@ -190,8 +190,10 @@ window.pageInit = {
   },
 
   async productos() {
+    // Sección "Modos de uso" temporalmente deshabilitada: se muestra estado "muy pronto".
     const searchInput = document.getElementById('product-search');
     const list = document.getElementById('product-list');
+    if (!searchInput || !list) return;
     let debounceTimer;
 
     async function loadProducts(q) {
