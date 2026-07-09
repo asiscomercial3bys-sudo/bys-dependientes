@@ -18,6 +18,7 @@ router.get('/', async (req: Request, res: Response) => {
     const productos = await prisma.producto.findMany({
       where,
       include: { marca: { select: { nombre: true, imagenUrl: true } } },
+      omit: { precio: true },
       orderBy: { nombre: 'asc' },
       take: 50,
     });
@@ -34,6 +35,7 @@ router.get('/barcode/:code', async (req: Request, res: Response) => {
     const producto = await prisma.producto.findFirst({
       where: { codigoBarras: String(req.params.code) },
       include: { marca: { select: { nombre: true, imagenUrl: true } } },
+      omit: { precio: true },
     });
     if (!producto) {
       res.status(404).json({ error: 'Producto no encontrado con ese código de barras' });

@@ -49,6 +49,7 @@ model Producto {
   imagenUrl       String? @map("imagen_url")
   puntosPorVenta  Int     @default(10) @map("puntos_por_venta")
   codigoBarras    String? @map("codigo_barras")
+  precio          Int?    @map("precio")
   marca           Marca   @relation(fields: [marcaId], references: [id])
   ventas          Venta[]
 
