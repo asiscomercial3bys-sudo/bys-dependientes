@@ -176,17 +176,42 @@ window.pageInit = {
   async inicio() {
     try {
       const data = await api.inicio();
-      const scrollContainer = document.getElementById('brand-scroll');
-      if (data.marcas.length) {
-        scrollContainer.innerHTML = data.marcas.map((m) =>
-          `<div class="brand-item">
-            ${m.imagenUrl
-              ? `<img src="${m.imagenUrl}" alt="${m.nombre}">`
-              : `<span class="brand-placeholder">${m.nombre}</span>`}
+      const gridContainer = document.getElementById('brand-scroll');
+      const searchInput = document.getElementById('brand-search-input');
+
+      // Orden alfabético por nombre de marca
+      const marcas = [...data.marcas].sort((a, b) =>
+        a.nombre.localeCompare(b.nombre, 'es', { sensitivity: 'base' })
+      );
+
+      function renderMarcas(filtro = '') {
+        const q = filtro.trim().toLowerCase();
+        const visibles = q
+          ? marcas.filter((m) => m.nombre.toLowerCase().includes(q))
+          : marcas;
+        if (!marcas.length) {
+          gridContainer.innerHTML = '<p class="brand-empty">Aún no hay marcas registradas</p>';
+          return;
+        }
+        if (!visibles.length) {
+          gridContainer.innerHTML = '<p class="brand-empty">No se encontraron marcas</p>';
+          return;
+        }
+        gridContainer.innerHTML = visibles.map((m) =>
+          `<div class="brand-cell">
+            <div class="brand-item">
+              ${m.imagenUrl
+                ? `<img src="${m.imagenUrl}" alt="${m.nombre}">`
+                : `<span class="brand-placeholder">${m.nombre}</span>`}
+            </div>
+            <span class="brand-name">${m.nombre}</span>
           </div>`
         ).join('');
-      } else {
-        scrollContainer.innerHTML = '<p style="color:var(--color-muted);font-size:0.85rem;">Aún no hay marcas registradas</p>';
+      }
+
+      renderMarcas();
+      if (searchInput) {
+        searchInput.addEventListener('input', () => renderMarcas(searchInput.value));
       }
 
       document.getElementById('texto-premios').textContent = data.textoPremios;

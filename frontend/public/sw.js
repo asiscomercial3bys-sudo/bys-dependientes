@@ -1,4 +1,4 @@
-const CACHE_NAME = 'puntos-v8';
+const CACHE_NAME = 'puntos-v9';
 const APP_SHELL = [
   '/',
   '/css/variables.css',
