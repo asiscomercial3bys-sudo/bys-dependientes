@@ -13,6 +13,23 @@ function formatDate(iso) {
   return d.toLocaleDateString('es-CO', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
 }
 
+function formatShortDate(iso) {
+  const d = new Date(iso);
+  return d.toLocaleDateString('es-CO', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+
+function estadoBadge(estado) {
+  const map = {
+    pendiente: ['En validación', 'badge-pendiente'],
+    disponible: ['Por redimir', 'badge-disponible'],
+    por_vencer: ['Por vencer', 'badge-vencer'],
+    vencido: ['Vencido', 'badge-vencido'],
+    redimido: ['Redimido', 'badge-redimido'],
+  };
+  const [texto, clase] = map[estado] || ['—', 'badge-pendiente'];
+  return `<span class="mov-badge ${clase}">${texto}</span>`;
+}
+
 // Barcode scanner using camera
 let scannerStream = null;
 function stopScanner() {
@@ -386,19 +403,43 @@ window.pageInit = {
   async puntos() {
     try {
       const data = await api.resumenPuntos();
-      document.getElementById('total-puntos').textContent = data.totalPuntos;
+      document.getElementById('pts-ganados').textContent = data.ganados;
+      document.getElementById('pts-redimir').textContent = data.porRedimir;
+      document.getElementById('pts-vencer').textContent = data.porVencer;
+      document.getElementById('pts-redimidos').textContent = data.redimidos;
+
+      const vencerSub = document.getElementById('pts-vencer-sub');
+      if (data.porVencer > 0 && data.proximoVencimiento) {
+        vencerSub.textContent = 'Vence ' + formatShortDate(data.proximoVencimiento);
+      } else {
+        vencerSub.textContent = 'Próximos 30 días';
+      }
+
+      const nota = document.getElementById('pts-nota');
+      if (data.pendientes > 0) {
+        nota.style.display = 'block';
+        nota.innerHTML = `Tienes <strong>${data.pendientes} puntos</strong> en validación de factura. Estarán disponibles para redimir una vez autorizados.`;
+      } else {
+        nota.style.display = 'none';
+      }
 
       const historial = document.getElementById('historial-ventas');
-      if (data.ultimasVentas.length) {
-        historial.innerHTML = data.ultimasVentas.map((v) =>
-          `<div class="venta-item">
-            <div>
-              <div class="venta-producto">${v.producto} × ${v.cantidad}</div>
-              <div class="venta-fecha">${formatDate(v.fecha)}</div>
+      if (data.movimientos.length) {
+        historial.innerHTML = data.movimientos.map((v) => {
+          const venc = (v.estado === 'disponible' || v.estado === 'por_vencer') && v.fechaVencimiento
+            ? `<div class="mov-venc">Vence ${formatShortDate(v.fechaVencimiento)}</div>` : '';
+          return `<div class="mov-item">
+            <div class="mov-info">
+              <div class="mov-producto">${v.producto} × ${v.cantidad}</div>
+              <div class="mov-fecha">${formatDate(v.fecha)}</div>
+              ${venc}
             </div>
-            <span class="venta-puntos">+${v.puntosGanados}</span>
-          </div>`
-        ).join('');
+            <div class="mov-right">
+              <span class="mov-puntos">+${v.puntosGanados}</span>
+              ${estadoBadge(v.estado)}
+            </div>
+          </div>`;
+        }).join('');
       } else {
         historial.innerHTML = '<p style="text-align:center;color:var(--color-muted);padding:16px 0;">Aún no has registrado ventas</p>';
       }

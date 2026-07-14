@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="/icons/icon-192.png">
   <title>B&S DEPENDIENTES</title>
   <link rel="stylesheet" href="/css/variables.css">
-  <link rel="stylesheet" href="/css/app.css?v=7">
+  <link rel="stylesheet" href="/css/app.css?v=8">
   <link rel="stylesheet" href="/css/components/navbar.css">
   <link rel="stylesheet" href="/css/components/cards.css">
 </head>
@@ -241,11 +241,31 @@
 
   <template id="page-puntos">
     <div class="page">
-      <div style="text-align:center;padding:16px 0 24px;">
-        <p class="points-label">Tus puntos</p>
-        <p class="points-big" id="total-puntos">0</p>
+      <h2 class="section-title">Estado de cuenta</h2>
+      <div class="puntos-grid">
+        <div class="puntos-card pink">
+          <span class="pc-num" id="pts-ganados">0</span>
+          <span class="pc-lab">Puntos ganados</span>
+          <span class="pc-sub">Total histórico</span>
+        </div>
+        <div class="puntos-card green">
+          <span class="pc-num" id="pts-redimir">0</span>
+          <span class="pc-lab">Por redimir</span>
+          <span class="pc-sub">Disponibles ahora</span>
+        </div>
+        <div class="puntos-card amber">
+          <span class="pc-num" id="pts-vencer">0</span>
+          <span class="pc-lab">Por vencer</span>
+          <span class="pc-sub" id="pts-vencer-sub">Próximos 30 días</span>
+        </div>
+        <div class="puntos-card gray">
+          <span class="pc-num" id="pts-redimidos">0</span>
+          <span class="pc-lab">Redimidos</span>
+          <span class="pc-sub">Ya canjeados</span>
+        </div>
       </div>
-      <h3 class="section-title" style="font-size:1.1rem;">Historial reciente</h3>
+      <p class="puntos-nota" id="pts-nota" style="display:none;"></p>
+      <h3 class="section-title" style="font-size:1.1rem;margin-top:8px;">Movimientos</h3>
       <div class="card" id="historial-ventas">
         <p style="text-align:center;color:var(--color-muted);padding:16px 0;">Cargando...</p>
       </div>

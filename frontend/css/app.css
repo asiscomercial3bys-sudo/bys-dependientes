@@ -301,6 +301,46 @@ a { color: var(--color-primary); text-decoration: none; }
   font-size: 0.9rem; line-height: 1.55; color: var(--color-text); margin-bottom: 8px;
 }
 
+/* Estado de cuenta de puntos */
+.puntos-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px;
+}
+.puntos-card {
+  border-radius: var(--radius-md); padding: 16px 14px;
+  display: flex; flex-direction: column; color: #fff;
+}
+.puntos-card.pink { background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark)); }
+.puntos-card.green { background: linear-gradient(135deg, #2bb673, #1b8a54); }
+.puntos-card.amber { background: linear-gradient(135deg, #f5a623, #d4870f); }
+.puntos-card.gray { background: linear-gradient(135deg, #8a8a92, #63636b); }
+.pc-num { font-family: var(--font-display); font-size: 2rem; font-weight: 700; line-height: 1; }
+.pc-lab { font-size: 0.9rem; font-weight: 600; margin-top: 6px; }
+.pc-sub { font-size: 0.72rem; opacity: 0.88; margin-top: 1px; }
+.puntos-nota {
+  background: rgba(41, 171, 226, 0.10); color: #1a6a8a;
+  border-radius: var(--radius-sm); padding: 10px 14px;
+  font-size: 0.82rem; line-height: 1.4; margin-bottom: 16px;
+}
+.mov-item {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: 10px; padding: 12px 0; border-bottom: 1px solid var(--color-border);
+}
+.mov-item:last-child { border-bottom: none; }
+.mov-producto { font-size: 0.9rem; font-weight: 500; color: var(--color-text); }
+.mov-fecha { font-size: 0.75rem; color: var(--color-muted); margin-top: 2px; }
+.mov-venc { font-size: 0.72rem; color: #b3710a; margin-top: 2px; }
+.mov-right { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; flex-shrink: 0; }
+.mov-puntos { font-weight: 600; color: var(--color-primary); font-size: 0.95rem; }
+.mov-badge {
+  font-size: 0.68rem; font-weight: 600; padding: 2px 8px;
+  border-radius: var(--radius-full); white-space: nowrap;
+}
+.badge-pendiente { background: rgba(41, 171, 226, 0.14); color: #1a6a8a; }
+.badge-disponible { background: rgba(43, 182, 115, 0.14); color: #1b8a54; }
+.badge-vencer { background: rgba(245, 166, 35, 0.16); color: #b3710a; }
+.badge-vencido { background: rgba(229, 57, 53, 0.12); color: #c0392b; }
+.badge-redimido { background: rgba(120, 120, 130, 0.14); color: #55555c; }
+
 /* Modal / Bottom sheet */
 .modal-overlay {
   position: fixed; inset: 0;

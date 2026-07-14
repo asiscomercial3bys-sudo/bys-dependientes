@@ -57,14 +57,17 @@ model Producto {
 }
 
 model Venta {
-  id            String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  dependienteId String      @map("dependiente_id") @db.Uuid
-  productoId    String      @map("producto_id") @db.Uuid
-  cantidad      Int         @default(1)
-  puntosGanados Int         @map("puntos_ganados")
-  fecha         DateTime    @default(now())
-  dependiente   Dependiente @relation(fields: [dependienteId], references: [id])
-  producto      Producto    @relation(fields: [productoId], references: [id])
+  id                String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  dependienteId     String      @map("dependiente_id") @db.Uuid
+  productoId        String      @map("producto_id") @db.Uuid
+  cantidad          Int         @default(1)
+  puntosGanados     Int         @map("puntos_ganados")
+  fecha             DateTime    @default(now())
+  estado            String      @default("pendiente")
+  fechaAutorizacion DateTime?   @map("fecha_autorizacion")
+  fechaVencimiento  DateTime?   @map("fecha_vencimiento")
+  dependiente       Dependiente @relation(fields: [dependienteId], references: [id])
+  producto          Producto    @relation(fields: [productoId], references: [id])
 
   @@map("ventas")
 }
