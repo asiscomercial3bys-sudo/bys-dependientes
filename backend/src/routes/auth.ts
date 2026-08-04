@@ -9,13 +9,17 @@ const generarCodigo = customAlphabet('0123456789', 6);
 
 router.post('/registrar', async (req: Request, res: Response) => {
   try {
-    const { nombre, nitTienda, pin } = req.body;
+    const { nombre, nitTienda, pin, cedula, telefono, correo, ciudad, fechaNacimiento, genero } = req.body;
     if (!nombre || !nitTienda || !pin) {
       res.status(400).json({ error: 'nombre, nitTienda y pin son requeridos' });
       return;
     }
     if (pin.length < 4) {
       res.status(400).json({ error: 'El PIN debe tener al menos 4 dígitos' });
+      return;
+    }
+    if (!cedula || !telefono || !correo || !ciudad || !fechaNacimiento || !genero) {
+      res.status(400).json({ error: 'Todos los campos del registro son obligatorios' });
       return;
     }
 
@@ -32,6 +36,12 @@ router.post('/registrar', async (req: Request, res: Response) => {
         nitTienda,
         codigoAcceso,
         pinHash: hashPin(pin),
+        cedula,
+        telefono,
+        correo,
+        ciudad,
+        fechaNacimiento: new Date(fechaNacimiento),
+        genero,
       },
     });
 

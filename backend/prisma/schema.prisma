@@ -18,14 +18,20 @@ model Tienda {
 }
 
 model Dependiente {
-  id            String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  nombre        String
-  nitTienda     String   @map("nit_tienda")
-  codigoAcceso  String   @unique @map("codigo_acceso")
-  pinHash       String   @map("pin_hash")
-  fechaRegistro DateTime @default(now()) @map("fecha_registro")
-  tienda        Tienda   @relation(fields: [nitTienda], references: [nit])
-  ventas        Venta[]
+  id               String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  nombre           String
+  nitTienda        String    @map("nit_tienda")
+  codigoAcceso     String    @unique @map("codigo_acceso")
+  pinHash          String    @map("pin_hash")
+  fechaRegistro    DateTime  @default(now()) @map("fecha_registro")
+  cedula           String?
+  telefono         String?
+  correo           String?
+  ciudad           String?
+  fechaNacimiento  DateTime? @map("fecha_nacimiento") @db.Date
+  genero           String?
+  tienda           Tienda    @relation(fields: [nitTienda], references: [nit])
+  ventas           Venta[]
 
   @@map("dependientes")
 }

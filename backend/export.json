@@ -1,0 +1,2893 @@
+{
+  "marcas": [
+    {
+      "id": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "nombre": "AGIVA",
+      "imagenUrl": "/img/marcas/agiva.svg",
+      "orden": 1
+    },
+    {
+      "id": "6193cea7-9f80-4d3b-a1e7-8351f335170d",
+      "nombre": "ALUCINANTE",
+      "imagenUrl": "/img/marcas/alucinante.svg",
+      "orden": 2
+    },
+    {
+      "id": "96085d67-3ffa-4311-889d-f3d823ab7fe0",
+      "nombre": "BADI",
+      "imagenUrl": "/img/marcas/badi.svg",
+      "orden": 3
+    },
+    {
+      "id": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "nombre": "CHOCOLISS/AMARITE",
+      "imagenUrl": "/img/marcas/chocoliss.svg",
+      "orden": 4
+    },
+    {
+      "id": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "nombre": "GRYNTEC",
+      "imagenUrl": "/img/marcas/gryntec.svg",
+      "orden": 5
+    },
+    {
+      "id": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "nombre": "LECHE PAL PELO",
+      "imagenUrl": "/img/marcas/lechepp.svg",
+      "orden": 6
+    },
+    {
+      "id": "0cacfacb-03aa-4174-8cb6-4c819c29a6e0",
+      "nombre": "NEW TURBO SAS",
+      "imagenUrl": "/img/marcas/newturbo.svg",
+      "orden": 7
+    },
+    {
+      "id": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "nombre": "PROKPIL",
+      "imagenUrl": "/img/marcas/prokpil.svg",
+      "orden": 8
+    },
+    {
+      "id": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "nombre": "TECNOGLOBAL",
+      "imagenUrl": "/img/marcas/tecnoglobal.svg",
+      "orden": 9
+    }
+  ],
+  "productos": [
+    {
+      "id": "28663e14-dda8-4c8d-bde2-1ac324689804",
+      "codigo": "AGV17142",
+      "nombre": "AGIVA CERA EFECTO MATE #3 POTE 155 ML",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8683348000035"
+    },
+    {
+      "id": "20963a2f-694d-4dd0-a6c6-3ddf4fc8c7fd",
+      "codigo": "AGV17144",
+      "nombre": "AGIVA CERA PELO EN GOMA #5 POTE 155 ML",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8683348000004"
+    },
+    {
+      "id": "54ecd706-3a1f-4cdd-ae75-27ea74566408",
+      "codigo": "AGV17145",
+      "nombre": "AGIVA CERA FUERTE SPIDER #6 POTE 155 ML",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8683348000653"
+    },
+    {
+      "id": "ccafd222-eb18-4f83-8a78-c2065e5ac77f",
+      "codigo": "AGV17148",
+      "nombre": "AGIVA CERA EN POLVO SUAVE #1 CAJA 20 GRS",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8698703025851"
+    },
+    {
+      "id": "835d3e47-88cf-4757-b28d-3af1a9dfd94c",
+      "codigo": "AGV17149",
+      "nombre": "AGIVA CERA EN POLVO MEDIA #2 CAJA 20 GRS",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8698703025868"
+    },
+    {
+      "id": "f87f7951-905d-400c-962a-50a16bb33345",
+      "codigo": "AGV17150",
+      "nombre": "AGIVA CERA EN POLVO FUERTE #3 CAJA 20 GRS",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8698703025875"
+    },
+    {
+      "id": "a78ac7f8-ef38-46c4-8a88-fa99c396fa8c",
+      "codigo": "AGV17175",
+      "nombre": "AGIVA GEL AFEITAR SHAVING COOL GEL LITRO",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8683348000301"
+    },
+    {
+      "id": "86cf3e04-3eba-40ee-b0d8-a25b18739da1",
+      "codigo": "AGV17204",
+      "nombre": "AGIVA CERA POLVO PEINADOS MORADO X 20 GR",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8683348000240"
+    },
+    {
+      "id": "1e1055a0-f540-4239-b450-8692de3c94a0",
+      "codigo": "AGV17205",
+      "nombre": "AGIVA CERA GEL COOL BRIGTH MORADO #8 POTE X 155ML",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8683348000080"
+    },
+    {
+      "id": "76da37b9-7db2-421e-96ff-75d7c454279e",
+      "codigo": "AGV17206",
+      "nombre": "AGIVA CERA GEL NEGRO #9 X 155ML",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8683348000066"
+    },
+    {
+      "id": "dfa4505a-c0a1-44cf-8d9a-ce8abce9e0ac",
+      "codigo": "AGV17207",
+      "nombre": "AGIVA CERA CREMA BRILLANTINA X 155ML",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8683348000097"
+    },
+    {
+      "id": "daaf79ea-030e-4d8e-bc24-c1eae0a2609c",
+      "codigo": "AGV17211",
+      "nombre": "AGIVA CERA GEL AQUA STRONG NARANJA #1 POTE 155 ML",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8683348000028"
+    },
+    {
+      "id": "6208fab8-6c49-44f8-8e4b-f1c3aefc6209",
+      "codigo": "AGV17212",
+      "nombre": "AGIVA CERA  GEL AQUA ULTRA STRONG #2 POTE 155 ML",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8683348000011"
+    },
+    {
+      "id": "645a6e4c-d302-44a7-a6bc-44c17037b2dc",
+      "codigo": "AGV17213",
+      "nombre": "AGIVA CERA GEL AQUA GROOMING AMARILO #4 POTE 155 ML",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8683348000059"
+    },
+    {
+      "id": "d10f3658-4423-4bc3-935d-5c4978ad9b28",
+      "codigo": "AGV17214",
+      "nombre": "AGIVA CERA CREMA BRILLO CAFE #7 POTE 155 ML",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8683348000073"
+    },
+    {
+      "id": "9dafa69f-45b5-47dc-86e0-fd89326b6948",
+      "codigo": "AGV17218",
+      "nombre": "AGIVA EFECTO SPIDER #10 POTE 155 ML",
+      "marcaId": "b7bdbb71-33bb-4fb5-b30b-257063daaf45",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8683348000042"
+    },
+    {
+      "id": "19f19dc2-7e96-45d2-bc3f-36cf31b748ac",
+      "codigo": "ALCD002",
+      "nombre": "TRATAMIENTO ACONDICIONADOR ALUCINANTE SOFT MODE 500 mL",
+      "marcaId": "6193cea7-9f80-4d3b-a1e7-8351f335170d",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "34473318-c449-466d-a40a-4d5492e149a0",
+      "codigo": "ALSH001",
+      "nombre": "SHAMPOO PURIFICANTE ALUCINANTE CLEAN MOOD 500 mL",
+      "marcaId": "6193cea7-9f80-4d3b-a1e7-8351f335170d",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "fc30ec4a-f34b-4397-9a98-e048cece444f",
+      "codigo": "ALSR004",
+      "nombre": "SERUM CAPILAR PURIFICANTE ALUCINANTE BALANCE DROPS 120 mL",
+      "marcaId": "6193cea7-9f80-4d3b-a1e7-8351f335170d",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "fcf19324-f590-4dc7-9585-c1bafeb4ce7a",
+      "codigo": "ALTM005",
+      "nombre": "PRIMER TERMOPROTECTOR CAPILAR ALUCINANTE PRIMER 250 mL",
+      "marcaId": "6193cea7-9f80-4d3b-a1e7-8351f335170d",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "7e30765a-7ec1-4e0f-8389-a798e1d8a7b1",
+      "codigo": "BBS143",
+      "nombre": "BARBER STYLE GEL FIJADOR POTE x 200 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615143"
+    },
+    {
+      "id": "46f7536f-de18-4618-888b-111e90181d9e",
+      "codigo": "BBS242",
+      "nombre": "BARBER STYLE GEL FIJADOR POTE x 250 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615242"
+    },
+    {
+      "id": "78f79bcd-4d80-467b-9c51-593c272eb06f",
+      "codigo": "BBS341",
+      "nombre": "BARBER STYLE GEL FIJADOR  POTE x 450 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615341"
+    },
+    {
+      "id": "a4fbcd91-09b2-4a2d-aa30-0f89b2c97b95",
+      "codigo": "BBS440",
+      "nombre": "BARBER STYLE GEL FIJADOR POTE x 1000 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615440"
+    },
+    {
+      "id": "efed5e29-07fe-462e-be14-448cd7b96cb1",
+      "codigo": "BBS709",
+      "nombre": "BARBER STYLE GEL FIJADOR POTE x 100 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "fde6a683-7eba-4a5e-986f-00d7eb9e31b6",
+      "codigo": "BBS843",
+      "nombre": "BARBER STYLE GEL FIJADOR SACHET 15 g. RISTRA x 24",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615846"
+    },
+    {
+      "id": "76ee1b77-89dc-4ac6-9cc7-c9ace58e40d6",
+      "codigo": "BBS945",
+      "nombre": "CREMA PARA PEINAR BARBER STYLE 8/200ml",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615945"
+    },
+    {
+      "id": "90ef9c95-b565-4942-a49c-458e9c682426",
+      "codigo": "BBSG013",
+      "nombre": "BARBER STYLE GEL FIJADOR FIJACIÓN MEGAFIRME GOLD POTE x 250 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "2bb430fd-590e-4d21-940e-0f1907990505",
+      "codigo": "BBSG112",
+      "nombre": "BARBER STYLE GEL FIJADOR FIJACIÓN MEGAFIRME GOLD POTE x 1000 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "d3de85ee-9eb5-4844-b393-81f3656b3d1e",
+      "codigo": "BL764",
+      "nombre": "BADI SHAMPOO EN SECO LOVE SPRAY 200 ML",
+      "marcaId": "96085d67-3ffa-4311-889d-f3d823ab7fe0",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8696630144065"
+    },
+    {
+      "id": "f19287e5-9050-417d-8d86-122d675de81d",
+      "codigo": "BL765",
+      "nombre": "BADI SHAMPOO EN SECO SUMMER SPRAY 200 ML",
+      "marcaId": "96085d67-3ffa-4311-889d-f3d823ab7fe0",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8696630144072"
+    },
+    {
+      "id": "327c2043-6799-41b1-892a-e56e9a1ee253",
+      "codigo": "BL766",
+      "nombre": "BADI SHAMPOO EN SECO RETRO SPRAY 200 ML",
+      "marcaId": "96085d67-3ffa-4311-889d-f3d823ab7fe0",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8696630144089"
+    },
+    {
+      "id": "9e17d2c0-009d-48e8-b2f1-95fb2d889040",
+      "codigo": "BL768",
+      "nombre": "BADI LACA EXTRA FUERTE  SPRAY 400 ML",
+      "marcaId": "96085d67-3ffa-4311-889d-f3d823ab7fe0",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8696630136374"
+    },
+    {
+      "id": "1effcf4f-ef0b-405e-885d-559d01b18f1f",
+      "codigo": "BL770",
+      "nombre": "BADI HAIR MOUSE LADY BELLA ULTRA STRONG X 300ML",
+      "marcaId": "96085d67-3ffa-4311-889d-f3d823ab7fe0",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "8696630137203"
+    },
+    {
+      "id": "0ab01b18-9bfc-4aca-a194-17ccb8501ec1",
+      "codigo": "CHL001",
+      "nombre": "CHL SHAMPOO PASO 1 POTE X 450 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754914920"
+    },
+    {
+      "id": "1c173390-d3d9-40dc-906e-c9ae45dc728c",
+      "codigo": "CHL002",
+      "nombre": "CHL ALISANTE PROG PASO 2 POTE X 450 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754914418"
+    },
+    {
+      "id": "87844fdf-6b94-471f-9485-6dd24aea157e",
+      "codigo": "CHL003",
+      "nombre": "CHL MASCARILLA PASO 3 POTE X 450 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754912650"
+    },
+    {
+      "id": "c5ef04d1-ef0a-4693-9f96-5239831af355",
+      "codigo": "CHL004",
+      "nombre": "KIT HERBAL SHAMPO X 60ML+ TTO X 60 ML+ SERUM X 60ML + ACEITE X 30ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "11d30715-a4ae-4553-a300-452734e548c7",
+      "codigo": "CHL010105",
+      "nombre": "CHL ALISANTE PROG PASO 2 PLEX POTE X 250 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754918546"
+    },
+    {
+      "id": "420b3e31-80f6-40fb-878b-8c2f4e300ad4",
+      "codigo": "CHL010117",
+      "nombre": "CHL SHAMPOO REPARADOR POTE X 60 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709343674819"
+    },
+    {
+      "id": "4de29f83-c379-47c7-b345-a0cede1f7041",
+      "codigo": "CHL0101172",
+      "nombre": "CHL SERUM TRATAMIENTO POTE X 60 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754918232"
+    },
+    {
+      "id": "368be71e-3817-444b-8335-5c943b11f5f2",
+      "codigo": "CHL010817",
+      "nombre": "CHL TRATAMIENTO CAPILAR CRESPOS POTE X 120 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754911813"
+    },
+    {
+      "id": "1d951349-3580-463c-9b60-604f0d953004",
+      "codigo": "CHL0108171",
+      "nombre": "CHL TRATAMIENTO REPARADOR POTE X 60 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709997818225"
+    },
+    {
+      "id": "7561a29f-59cf-4392-b896-a957f84ebd44",
+      "codigo": "CHL0108173",
+      "nombre": "CHL TRATAMIENTO CAPILAR CRESPOS POTE X 500 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754912018"
+    },
+    {
+      "id": "98540379-0764-4b33-a639-f4edbf945bf9",
+      "codigo": "CHL0108174",
+      "nombre": "CHL TRATAMIENTO CAPILAR CRESPOS SACHET 30 ML C X 12",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754919321"
+    },
+    {
+      "id": "d5840a9b-ccc6-412b-b037-2f1b7a315c84",
+      "codigo": "CHL0108175",
+      "nombre": "CHL SHAMPOO DE ROMERO Y BIOTINA SACHET 30 ML C X 12",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754910151"
+    },
+    {
+      "id": "d0e6e359-c220-4bb6-ab7c-1e73ecba7125",
+      "codigo": "CHL0117",
+      "nombre": "CHL TRATAMIENTO REPARADOR SACHET 30 ML C X 12",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754919314"
+    },
+    {
+      "id": "82bb531d-7862-44b6-8de3-22d06cf2d350",
+      "codigo": "CHL01170",
+      "nombre": "CHL SHAMPOO REPARADOR SACHET 30 ML C X 12",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754918010"
+    },
+    {
+      "id": "e29f82f2-9cac-4b0d-b442-b3ed4cdb2ab8",
+      "codigo": "CHL101020",
+      "nombre": "CHL SHAMPOO REPARADOR POTE X 1000 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754918782"
+    },
+    {
+      "id": "16111d3b-a9b3-4d0b-aa09-b75c107fbecf",
+      "codigo": "CHL101021",
+      "nombre": "CHL SHAMPOO PASO 1 POTE X 250 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707315250214"
+    },
+    {
+      "id": "e8cfbe20-61d6-4f34-b43f-b445daf699ba",
+      "codigo": "CHL10104",
+      "nombre": "CHL MASCARILLA PASO 3 POTE X 250 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754911288"
+    },
+    {
+      "id": "6865b37f-b35d-4fed-b115-9c3f18c90e75",
+      "codigo": "CHL10105",
+      "nombre": "CHL ALISANTE PROG PASO 2 POTE X 250 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754915781"
+    },
+    {
+      "id": "594e7955-bdc6-48a2-ae86-e6cb2307bd8d",
+      "codigo": "CHL10105PLEX",
+      "nombre": "CHL ALISANTE PROG PASO 2 PLEX POTE X 160 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754914821"
+    },
+    {
+      "id": "1603e19c-439e-428d-a5a0-3bd15a9cb0c0",
+      "codigo": "CHL10106",
+      "nombre": "CHL KIT ALISANTE PROG X 80 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754918850"
+    },
+    {
+      "id": "7209620f-eaaf-4ed3-b89a-a1e9ef4c80e1",
+      "codigo": "CHL10106PLEX",
+      "nombre": "CHL ALISANTE PROG PASO 2 PLEX POTE X 450 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990663167"
+    },
+    {
+      "id": "291097cc-21fa-446c-860d-abe753506bfb",
+      "codigo": "CHL10107",
+      "nombre": "CHL KIT ALISANTE PROG X 160 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754918157"
+    },
+    {
+      "id": "16e6ce28-ba7a-4815-8ae0-442e986fbb13",
+      "codigo": "CHL10117",
+      "nombre": "CHL SHAMPOO REPARADOR POTE X 250 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754910571"
+    },
+    {
+      "id": "80b3aa90-8dfd-4931-a73c-4cd58ba9622c",
+      "codigo": "CHL101170",
+      "nombre": "CHL SHAMPOO CONTROL CASPA POTE X 250 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "9b35a6f7-bd20-4bd6-83d0-24ff27c5ec3a",
+      "codigo": "CHL1012",
+      "nombre": "CHL ACEITE REPARADOR SACHET 10 ML C X 12",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754917945"
+    },
+    {
+      "id": "5ac1886d-5cf9-4a99-8751-ac08bfb0e477",
+      "codigo": "CHL104",
+      "nombre": "CHL SHAMPOO LIMPIEZA PASO 1 POTE x 500 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990597394"
+    },
+    {
+      "id": "1e20ecb3-d6d8-4ab5-a0fc-9969c3216cf7",
+      "codigo": "CHL105",
+      "nombre": "CHL SHAMPOO PASO 1 POTE X 1000 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990414752"
+    },
+    {
+      "id": "093e1321-9465-4217-b756-9a9b2bb2fdd3",
+      "codigo": "CHL106",
+      "nombre": "CHL SHAMPOO REPARADOR POTE X 500 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754916856"
+    },
+    {
+      "id": "b7ade15d-9f43-4e5f-8ec8-83c81b28c3b4",
+      "codigo": "CHL108",
+      "nombre": "CHL ALISANTE PROG PASO 2 POTE X 1000 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990414745"
+    },
+    {
+      "id": "0c9908d1-d82d-4af1-8e04-483c41d1acae",
+      "codigo": "CHL10802",
+      "nombre": "CHL SHAMPOO DE ROMERO BIOTINA POTE X 250 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754919055"
+    },
+    {
+      "id": "6b6d8951-3f98-457c-99b1-fa3e318754fd",
+      "codigo": "CHL10817",
+      "nombre": "CHL TRATAMIENTO REPARADOR POTE X 1000 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990663112"
+    },
+    {
+      "id": "35089e82-03d7-4175-a479-2e568cd2a51a",
+      "codigo": "CHL111",
+      "nombre": "CHL TRATAMIENTO LISO REPARADOR POTE X 500 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990663129"
+    },
+    {
+      "id": "e90cec9b-f6b2-4bb2-a6f4-53df0aee9f5e",
+      "codigo": "CHL112",
+      "nombre": "CHL ACEITE REPARADOR POTE X 30 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754914234"
+    },
+    {
+      "id": "dcc2ad86-0b35-41bc-8b8a-d9cab85987b1",
+      "codigo": "CHL116",
+      "nombre": "CHL SERUM TRATAMIENTO POTE X 120 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754910731"
+    },
+    {
+      "id": "15dd53a1-e2c1-4193-9862-2119e6bd07a5",
+      "codigo": "CHL117",
+      "nombre": "CHL SERUM TRATAMIENTO SACHET 30 ML C X 12",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754913756"
+    },
+    {
+      "id": "0e2e491a-8f65-4641-99fa-37ebc96c8782",
+      "codigo": "CHL123",
+      "nombre": "CHL TRATAMIENTO LISO REPARADOR POTE X 200 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754918461"
+    },
+    {
+      "id": "b8466549-a3e7-4f3d-8a6a-510df824d367",
+      "codigo": "CHL125",
+      "nombre": "CHL SERUM TRATAMIENTO POTE X 500 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754913701"
+    },
+    {
+      "id": "d52b3b7e-b1ff-4741-a422-621f42df5131",
+      "codigo": "CHL126",
+      "nombre": "CHL AMPOLLETA REPARADORA ENVASE X 10 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707315255424"
+    },
+    {
+      "id": "cfe4eac8-89c2-4f96-a137-1bdb276f7ba4",
+      "codigo": "CHL128",
+      "nombre": "CHL ACEITE REPARADOR POTE X 60 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754915491"
+    },
+    {
+      "id": "9ff68e6c-ab82-4362-9154-417992f2d38c",
+      "codigo": "CHL130",
+      "nombre": "CHL SHAMPOO DE ROMERO Y BIOTINA POTE X 500 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707754919260"
+    },
+    {
+      "id": "86f903c8-dd92-4d8b-8cb6-0e24edb720c5",
+      "codigo": "CHL131",
+      "nombre": "CHL TONICO DE ROMERO Y BIOTINA POTE X 120 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709343674888"
+    },
+    {
+      "id": "280b120e-f7e4-43c0-a490-fabe01c48371",
+      "codigo": "CHL132",
+      "nombre": "AMT TTO CAPIL CANNABIS POTE x 400 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707315251631"
+    },
+    {
+      "id": "9ec689d3-f03f-48a5-aa37-88aebb3296b1",
+      "codigo": "CHL133",
+      "nombre": "AMT TTO CAPIL AJO Y CEBOLLA  POTE x 400 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707315259484"
+    },
+    {
+      "id": "208b09e6-e062-4eb2-9f1e-765536405ca8",
+      "codigo": "CHL134",
+      "nombre": "AMT TTO CAPIL MIEL Y ARGAN POTE x 400 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707315252812"
+    },
+    {
+      "id": "27340849-857a-4771-adf5-f54fbdebc148",
+      "codigo": "CHL135",
+      "nombre": "AMT TTO CAPIL FRUTOS ROJOS POTE x 400 ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707315254342"
+    },
+    {
+      "id": "4b6afa87-8142-45ca-ad28-c62e8d5eb930",
+      "codigo": "CHL140",
+      "nombre": "AMT TTO CAPIL CANNABIS SACHET 30 ML C x 20",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707315256247"
+    },
+    {
+      "id": "082d9350-4c74-45f4-ac4c-21744bef866b",
+      "codigo": "CHL141",
+      "nombre": "AMT TTO CAPIL AJO Y CEBOLLA SACHET 30 ML C x 20",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707315256735"
+    },
+    {
+      "id": "0ac00669-e044-4caf-80f9-96371cfc9406",
+      "codigo": "CHL142",
+      "nombre": "AMT TTO CAPIL FRUTOS ROJOS SACHET 30 ML C x 20",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707315254861"
+    },
+    {
+      "id": "6b31666b-f7a5-4cc1-81f4-d1d0206edb46",
+      "codigo": "COMBOML250CHOCOLISS",
+      "nombre": "CHL SHAMPOO PASO #1 ALISANTE PASO #2 MASCARILA PASO #3 X 250ML",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "21bca652-7920-405a-bea9-58ddc2b105fe",
+      "codigo": "COMBOML440MLRIZOS",
+      "nombre": "KIT RIZOS X 440ML (1 SHAM+ 1 MASC +1 TERMO AFRO X 440ML+ 1 OLEO X 35ML)",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "64c0c614-280b-484e-8791-3e27aaf7ec47",
+      "codigo": "COMBOML500MLREPARADOPHERBAL",
+      "nombre": "KIT REPARADOR HERBALFLUSS500ML (1SHAMPOO X 500ML+ TTO X 500ML +ACEITE X 30ML REPARADOR)",
+      "marcaId": "5c2e3fac-a2a4-4892-bc97-6b7b9bbc1c8e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "8d472c3b-f2c9-4dfb-8e94-f939537e541f",
+      "codigo": "COMBOMLCRESPOSPK",
+      "nombre": "PKML CREMA PARA PEINAR X 300+ LOCION CRESPO X 150ML+ GEL FLUIDO RIZO X 300ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "64affd2c-484b-4a78-bb46-35cbc6b49489",
+      "codigo": "DLA10422",
+      "nombre": "DLA SHAMPOO DE CEBOLLA DEL ARBOL CAJA X 12 SACHET X 40ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708713917617"
+    },
+    {
+      "id": "af915105-fbe5-494a-80f9-52126440ed98",
+      "codigo": "DLA10425",
+      "nombre": "DLA TONICO CAPILAR DE CEBOLLA 120ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709844639430"
+    },
+    {
+      "id": "4e03fc04-7c92-42b8-8432-ca004aab9c09",
+      "codigo": "DLA10430",
+      "nombre": "DLA ACONDICIONADOR DE CEBOLLA DEL ARBOL 1000 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709799034496"
+    },
+    {
+      "id": "3aafabad-9c69-4c82-91ca-89139400f26a",
+      "codigo": "DLA10432",
+      "nombre": "DLA ACONDICIONADOR DE CEBOLLA DEL ARBOL X CAJA 12 SACHET X 40 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708713917709"
+    },
+    {
+      "id": "f9ac4b41-3923-43d9-a21b-c10e78f2c0b6",
+      "codigo": "DLA10452",
+      "nombre": "DLA SHAMPOO ACIDO HIALURONICO BIOTINA Y ARGAN X CAJA X 12 UND",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708713917501"
+    },
+    {
+      "id": "a19197e9-94d1-4065-813c-36f9e0a13e92",
+      "codigo": "DLA10460",
+      "nombre": "DLA ACONDICIONADOR ACIDO HIALURONICO BIOTINA Y ARGAN X 1000ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708713917396"
+    },
+    {
+      "id": "86beaf36-f0ee-406e-a11a-42e60d91c9bb",
+      "codigo": "GRTC010",
+      "nombre": "GRYNTEC ACEITE COCO 50 ML X UNIDAD",
+      "marcaId": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "69ef023a-0edf-493d-8cbd-78375bad4bba",
+      "codigo": "GRTC011",
+      "nombre": "GRYNTEC ACEITE ALMENDRAS 15 ML X UNIDAD",
+      "marcaId": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "9c23a7ff-4cd0-4c1c-98ea-b5e002a5bf28",
+      "codigo": "GRTC012",
+      "nombre": "GRYNTEC ACEITE ALMENDRAS 50 ML X UNIDAD",
+      "marcaId": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "a83f6aee-c101-462b-8aa0-4fb5d3b122b5",
+      "codigo": "GRTC013",
+      "nombre": "GRYNTEC ACEITE NARANJA 15 ML X UNIDAD",
+      "marcaId": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "eb6019c9-ee85-4c28-8a9d-e5891fe94c3c",
+      "codigo": "GRTC014",
+      "nombre": "GRYNTEC ACEITE NARANJA 50 ML X UNIDAD",
+      "marcaId": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "d59314ad-9c11-42f9-84c2-2b29e8a68873",
+      "codigo": "GRTC08",
+      "nombre": "GRYNTEC KIT DECOLORANTE VELLOS",
+      "marcaId": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "f16833c0-491a-4a53-be3d-bb135aa49920",
+      "codigo": "GRTC09",
+      "nombre": "GRYNTEC ACEITE COCO 15 ML X UNIDAD",
+      "marcaId": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "6d055eec-d5b0-4378-9f33-a00e2c1634c2",
+      "codigo": "GRTC1",
+      "nombre": "GRYNTEC LAMPIÑA CREMA DEPILADORA CAJA x 6 SACHET x 30 GRS",
+      "marcaId": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "e4f61f08-9f71-48b6-b345-fa9f1284c577",
+      "codigo": "GRTC2",
+      "nombre": "GRYNTEC LAMPIÑA CREMA DEPILADORA FACIAL CAJA X 6 SACHET 15 GRS",
+      "marcaId": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "b301297c-3e4c-4cb9-b5dd-d841fd7a6b03",
+      "codigo": "GRTC3",
+      "nombre": "GRYNTEC LAMPIÑA CREMA DEPILADORA DOYPACK 120 GRS",
+      "marcaId": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "6c81d8b5-d41c-4986-9a8d-65f639788a18",
+      "codigo": "GRTC4",
+      "nombre": "GRYNTEC TINTE DE CEJAS COLOR CHOCOLATE X 0,8 GR",
+      "marcaId": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709350603055"
+    },
+    {
+      "id": "6e707644-fa5f-439e-a561-6e26ec6284d8",
+      "codigo": "GRTC5",
+      "nombre": "GRYNTEC TINTE DE CEJAS COLOR CASTAÑO CLARO X 0,8 GR",
+      "marcaId": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709350603048"
+    },
+    {
+      "id": "e23cd3c4-03a3-4704-a453-0d7bccb635a3",
+      "codigo": "GRTC6",
+      "nombre": "GRYNTEC TINTE DE CEJAS COLOR CASTAÑO OSCURO X 0,8 GR",
+      "marcaId": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709380589015"
+    },
+    {
+      "id": "965cb945-4b4a-43dc-bc32-c2af07b65558",
+      "codigo": "GRTC7",
+      "nombre": "GRYNTEC TINTE DE CEJAS COLOR NEGRO X 0,8 GR",
+      "marcaId": "635aadc5-3952-4483-8090-bd69a7352ea6",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709380589077"
+    },
+    {
+      "id": "4088fd5f-c709-4da0-8027-0306f485f1e4",
+      "codigo": "LAK10800",
+      "nombre": "LPP KIDS SHAMPOO RIZOS PERFECTOS POTE LITRO",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "b3ebc982-8721-48aa-90bb-ada11dc04805",
+      "codigo": "LAK10801",
+      "nombre": "LPP KIDS SHAMPOO RIZOS PERFECTOS x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708993672305"
+    },
+    {
+      "id": "ce6a0c40-a1b3-47d3-bace-c2b58e351e49",
+      "codigo": "LAK10802",
+      "nombre": "LPP KIDS SHAMPOO RIZOS PERFECTOS x 250 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709028027824"
+    },
+    {
+      "id": "942e02bc-020b-41b9-a4b4-b0d69d84fd6f",
+      "codigo": "LAK10803",
+      "nombre": "LPP KIDS SHAMPOO RIZOS PERFECTOS CAJA X 12UND X 40ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709028027831"
+    },
+    {
+      "id": "188ab69c-2228-487f-a369-345d8d91fe99",
+      "codigo": "LAK11800",
+      "nombre": "LPP KIDS ACONDICIONADOR RIZOS PERFECTOS POTE LITRO",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "4bb86419-c17f-407a-a1f0-e02e65b2afbf",
+      "codigo": "LAK11801",
+      "nombre": "LPP KIDS ACONDICIONADOR RIZOS PERFECTOS  x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708993672329"
+    },
+    {
+      "id": "e0b71756-71cc-4446-b9d8-3ba62046affe",
+      "codigo": "LAK11802",
+      "nombre": "LPP KIDS ACONDICIONADOR RIZOS PERFECTOS x 250 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709028027848"
+    },
+    {
+      "id": "1d5deee0-0cc1-4781-9d7b-2b54e958a044",
+      "codigo": "LAK13801",
+      "nombre": "LPP KIDS GELATINA SLIME DEFINIDORA RIZOS PERFECTOS x 600 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708993672381"
+    },
+    {
+      "id": "3e328ef6-c213-4d9f-9519-dcc0b35b55a7",
+      "codigo": "LAK14001",
+      "nombre": "LPP SPLASH CAPILAR CANDY x 100 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "5b8e3079-7abd-4c4c-ac1c-fa9eb6314c17",
+      "codigo": "LCA10051",
+      "nombre": "LPP AFRO MASCARILLA POTE x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990241280"
+    },
+    {
+      "id": "5f3f0125-3eec-4b85-b8ad-f1584d78d534",
+      "codigo": "LCA10052",
+      "nombre": "LPP AFRO SHAMPOO POTE x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709290264187"
+    },
+    {
+      "id": "e898e1fa-ba38-4a45-9994-603225a3b952",
+      "codigo": "LCA10057",
+      "nombre": "LPP AFRO SHAMPOO SACHET 30 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990241297"
+    },
+    {
+      "id": "b73cb17d-c17c-417b-ae43-99579b6ba327",
+      "codigo": "LCA10058",
+      "nombre": "LPP AFRO TERMO SACHET 30 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990327601"
+    },
+    {
+      "id": "c21f6743-68d7-4982-a3f8-946c3bce8747",
+      "codigo": "LCA10059",
+      "nombre": "LPP AFRO MASCARILLA SACHET 30 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709284699865"
+    },
+    {
+      "id": "dca87f70-da69-4ec4-bf7e-94da8499148b",
+      "codigo": "LCA10061",
+      "nombre": "LPP AFRO MASCARILLA SACHET 100ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990241204"
+    },
+    {
+      "id": "f0969d7a-4e6d-40fa-a8ba-b26e276d4408",
+      "codigo": "LCA10062",
+      "nombre": "LPP AFRO TERMO SACHET 100 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990241266"
+    },
+    {
+      "id": "f09f5a11-5567-4388-912e-95ce58199487",
+      "codigo": "LCA10088",
+      "nombre": "LPP AFRO TERMO POTE x 250 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709122487715"
+    },
+    {
+      "id": "679a9c82-dc66-4466-bee2-c2fd847a9a79",
+      "codigo": "LCA10089",
+      "nombre": "LPP AFRO MASCARILLA POTE x 250 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709092870609"
+    },
+    {
+      "id": "b9955b97-a72c-4764-9b85-ee335b89cf4e",
+      "codigo": "LCA10090",
+      "nombre": "LPP AFRO SHAMPOO POTE x 250 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709122487722"
+    },
+    {
+      "id": "af3729c3-da73-49c2-a7b5-aaced1cd2f8f",
+      "codigo": "LCA10096",
+      "nombre": "OLEO RIZOS Y AFRO X 35ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709715124898"
+    },
+    {
+      "id": "cd667a83-c51e-4e92-bd3a-bd1213aac738",
+      "codigo": "LCA10097",
+      "nombre": "LPP AFRO DEFINIDOR DE RIZOS POTE x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708713917242"
+    },
+    {
+      "id": "1f409b70-ab9d-4a46-8d6a-3d4f4d96da7c",
+      "codigo": "LCA10098",
+      "nombre": "LPP AFRO  CO-WASH ACONDICIONADOR LIMPIADOR POTE x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708713917433"
+    },
+    {
+      "id": "81f3446f-51eb-4b43-a715-214b599a6e08",
+      "codigo": "LCA10099",
+      "nombre": "LPP AFRO AGUA DE COCO REFRESCANTE X 250ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709727426782"
+    },
+    {
+      "id": "d9682f32-907c-4578-8811-b427e511e121",
+      "codigo": "LCA10129",
+      "nombre": "LPP AFRO MASCARILLA POTE LITRO",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709092870630"
+    },
+    {
+      "id": "db852e5f-0ffa-4bf1-8522-a05949ada54f",
+      "codigo": "LCA10130",
+      "nombre": "LPP AFRO SHAMPOO POTE LITRO",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709315023300"
+    },
+    {
+      "id": "f4ac20a6-5b8b-4870-bc8b-7196fbbd4eca",
+      "codigo": "LCC10070",
+      "nombre": "LPP COLOR TERMO POTE x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709360571641"
+    },
+    {
+      "id": "a20d2101-bf74-405e-ad9a-3a3e36c1c7fb",
+      "codigo": "LCC10071",
+      "nombre": "LPP COLOR MASCARILLA POTE x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709284699872"
+    },
+    {
+      "id": "6c09bb43-d428-42db-8c24-2cd154c4e5c0",
+      "codigo": "LCC10072",
+      "nombre": "LPP COLOR SHAMPOO POTE x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709284699803"
+    },
+    {
+      "id": "af3cd8e9-7b15-43f8-b1a7-826e7eea92ce",
+      "codigo": "LCC10076",
+      "nombre": "LPP COLOR MASCARILLA SACHET 30 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709360571689"
+    },
+    {
+      "id": "a52dfdf5-a402-4876-ad2e-f4c91610b6c2",
+      "codigo": "LCC10078",
+      "nombre": "LPP COLOR TERMO SACHET 30 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709092870678"
+    },
+    {
+      "id": "48dd16f3-0d72-4ae3-b1be-6c4e9f85c45f",
+      "codigo": "LCC10079",
+      "nombre": "LPP COLOR SHAMPOO SACHET 30 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709360571610"
+    },
+    {
+      "id": "e33b0b92-e538-4703-ad11-9be6de18991a",
+      "codigo": "LCC10086",
+      "nombre": "LPP COLOR MASCARILLA POTE x 250 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709122487708"
+    },
+    {
+      "id": "5ab0e53a-e845-484e-a69e-f5b1fce0bec7",
+      "codigo": "LCC10087",
+      "nombre": "LPP COLOR SHAMPOO POTE x 250 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709092870623"
+    },
+    {
+      "id": "500073a2-d577-493c-9d83-818e62829488",
+      "codigo": "LCC10131",
+      "nombre": "LPP COLOR MASCARILLA POTE LITRO",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709122487739"
+    },
+    {
+      "id": "e9c37982-839e-4927-9629-f263dea746e2",
+      "codigo": "LCC10132",
+      "nombre": "LPP COLOR SHAMPOO POTE LITRO",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709315023331"
+    },
+    {
+      "id": "b6bc6490-fff0-4076-97c5-b6b121efd409",
+      "codigo": "LCC10185",
+      "nombre": "SPRAY AMINO 12",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709028027800"
+    },
+    {
+      "id": "1e95f727-0930-4832-b2b0-4bb03fa30713",
+      "codigo": "LCD10250",
+      "nombre": "LPP ACONDICIONADOR DETOX POTE x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708713917518"
+    },
+    {
+      "id": "015cdfcc-8c73-453d-91c2-825b29ff3034",
+      "codigo": "LCF10094",
+      "nombre": "LPP TRADICIONAL FINISH REPARAPUNTAS CHIA SPRAY x 35 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708975697807"
+    },
+    {
+      "id": "30185b55-5647-4882-afe8-b7cadd215b28",
+      "codigo": "LCK10710",
+      "nombre": "LPP KIDS CREMA PARA PEINAR  x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709360571634"
+    },
+    {
+      "id": "a81cb532-de18-4495-873c-6cd75bcfb3a9",
+      "codigo": "LCK10711",
+      "nombre": "LPP KIDS CREMA PARA PEINAR  POTE x 250 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709360571665"
+    },
+    {
+      "id": "af59d7a1-a2e2-4136-aa5d-4e2df90e175b",
+      "codigo": "LCK10713",
+      "nombre": "LPP KIDS CREMA PARA PEINAR  X 30 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709936491557"
+    },
+    {
+      "id": "dbadbb4a-b0ce-459d-82fa-f522907328bb",
+      "codigo": "LCK10720",
+      "nombre": "LPP KIDS ACONDICIONADOR POTE x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709485294302"
+    },
+    {
+      "id": "1e0875d9-9231-4430-8e5f-9c9dd8f3abab",
+      "codigo": "LCK10721",
+      "nombre": "LPP KIDS ACONDICIONADOR POTE x 250 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709485294357"
+    },
+    {
+      "id": "85a7e6be-e04a-44be-85e7-12da209b4e44",
+      "codigo": "LCK10724",
+      "nombre": "LPP KIDS ACONDICIONADOR POTE LITRO",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709936491571"
+    },
+    {
+      "id": "87a7c538-fea1-4310-bea8-a970c3137f48",
+      "codigo": "LCK10730",
+      "nombre": "LPP KIDS SHAMPOO NUTRITIVO x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709783749276"
+    },
+    {
+      "id": "6736b98d-307b-497d-a6af-3fe9a61ed5b4",
+      "codigo": "LCK10731",
+      "nombre": "LPP KIDS SHAMPOO NUTRITIVO POTE x 250 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709485294340"
+    },
+    {
+      "id": "a38c5c59-1cfb-4681-a81c-deb40334e4a7",
+      "codigo": "LCK10732",
+      "nombre": "LPP KIDS SHAMPOO NUTRITIVO POTE LITRO",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709979863946"
+    },
+    {
+      "id": "850e04c3-7d2e-4a80-ba33-c26135c45992",
+      "codigo": "LCK10733",
+      "nombre": "LPP KIDS SHAMPOO NUTRITIVO SACHET 30 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709485294388"
+    },
+    {
+      "id": "75b29ec8-e752-4947-9445-0f6a6fad7f89",
+      "codigo": "LCK10740",
+      "nombre": "LPP KIDS SHAMPOO+ACONDICIONADOR POTEx 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709936491526"
+    },
+    {
+      "id": "ff662cb2-7325-4c8b-a4c3-c25f896eb496",
+      "codigo": "LCK10741",
+      "nombre": "LPP KIDS SHAMPOO+ACONDICIONADOR POTE X  250ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709936491564"
+    },
+    {
+      "id": "7a59dd12-9412-4dba-9d80-1865ca9b4b0b",
+      "codigo": "LCK10745",
+      "nombre": "LPP KIDS CREMA PARA PEINAR CON FIJACION X 440ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708713917075"
+    },
+    {
+      "id": "f51e70d0-36c6-4a4c-820f-36ae6aaea153",
+      "codigo": "LCP10000",
+      "nombre": "LPP TRADICIONAL TERMO POTE x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990327649"
+    },
+    {
+      "id": "47017dde-73a3-42a9-a5ee-d61ed5a599d9",
+      "codigo": "LCP10001",
+      "nombre": "LPP TRADICIONAL RECO POTE x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990327670"
+    },
+    {
+      "id": "336bd8e7-1ce0-4d63-861e-1d0c6689fa8a",
+      "codigo": "LCP10002",
+      "nombre": "LPP TRADICIONAL SHAMPOO POTE x 440 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990327694"
+    },
+    {
+      "id": "4a3d0b09-a184-40ea-9838-54419025ab9e",
+      "codigo": "LCP10010",
+      "nombre": "LPP TRADICIONAL TERMO SACHET 100 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990241259"
+    },
+    {
+      "id": "0f7842a8-7fce-4a41-9934-011714229eec",
+      "codigo": "LCP10011",
+      "nombre": "LPP TRADICIONAL RECO SACHET 100 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709990241242"
+    },
+    {
+      "id": "e13b1ec6-7a69-44c7-a056-4288e710fa9d",
+      "codigo": "LCP10021",
+      "nombre": "LPP TRADICIONAL RECO SACHET 30 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709315023355"
+    },
+    {
+      "id": "42030cf2-ffaf-4580-9e91-f3df6633792e",
+      "codigo": "LCP10022",
+      "nombre": "LPP TRADICIONAL SHAMPOO SACHET 30 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709783749214"
+    },
+    {
+      "id": "046fbc61-c7f5-4ad5-9b69-d86a1fcc4ca8",
+      "codigo": "LCP10082",
+      "nombre": "LPP TRADICIONAL TERMO POTE x 250 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709315023317"
+    },
+    {
+      "id": "c83fb810-2162-4619-ac56-3efa98b918e5",
+      "codigo": "LCP10083",
+      "nombre": "LPP TRADICIONAL RECO POTE x 250 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709122487753"
+    },
+    {
+      "id": "e616df45-bc87-47d6-ac24-3349c0ed8736",
+      "codigo": "LCP10084",
+      "nombre": "LPP TRADICIONAL SHAMPOO POTE x 250 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709360571672"
+    },
+    {
+      "id": "13a9512f-aa8b-4b53-ad7a-a1275cccb9b3",
+      "codigo": "LCP10127",
+      "nombre": "LPP TRADICIONAL RECO POTE LITRO",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709122487784"
+    },
+    {
+      "id": "f14625fc-8481-4295-91e5-5fb31ce8671d",
+      "codigo": "LCP10128",
+      "nombre": "LPP TRADICIONAL SHAMPOO POTE LITRO",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709315023348"
+    },
+    {
+      "id": "bdf86bc0-674c-4d66-b554-9dabb2a216c9",
+      "codigo": "LCP10601",
+      "nombre": "LPP MASCARILLA REGENERADOR INTENSO 7 OLEOS x 800 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709844639478"
+    },
+    {
+      "id": "3a72d762-d30b-4ccc-9bee-6e66b3ed2848",
+      "codigo": "LCP10605",
+      "nombre": "LPP MASCARILLA REGENERADOR INTENSO 7 OLEOS x 40 ML  UND",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708713917679"
+    },
+    {
+      "id": "a67dbf19-269f-4a13-bee2-2dadabbde180",
+      "codigo": "LCP10609",
+      "nombre": "LPP SPLASH CAPILAR CELESTIAL BLUE 100ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709028027855"
+    },
+    {
+      "id": "71967356-2dfb-4fdb-a33c-7a183d1051d3",
+      "codigo": "LCP10614",
+      "nombre": "LPP MASCARILLA WOW  x 800 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708993672336"
+    },
+    {
+      "id": "898cc97d-a128-4f5a-ab28-21a34f3c4250",
+      "codigo": "LCP10615",
+      "nombre": "LPP MASCARILLA WOW x 40 ML X CAJAS(12 UNIDADES)",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708993672398"
+    },
+    {
+      "id": "11d7e7fc-81c8-4856-8e07-095c23e3e916",
+      "codigo": "LCP10618",
+      "nombre": "LPP SPLASH CAPILAR LOVE x 100 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708993672343"
+    },
+    {
+      "id": "7f8ef88c-b753-47f0-8083-6ffa896e64df",
+      "codigo": "LCS10719",
+      "nombre": "LPP KIDS DESENREDANTE  SPRAY x 250 ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709936491588"
+    },
+    {
+      "id": "ac411e1f-8066-4fd5-8986-8a57b6f3bc30",
+      "codigo": "LPP10610",
+      "nombre": "LPP SHAMPOO REGENERADOR INTENSO x 440ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708713917891"
+    },
+    {
+      "id": "822d29d2-96ed-4c1d-b78c-15ff332e4dfa",
+      "codigo": "LPP10611",
+      "nombre": "LPP ACONDICIONADOR REGENERADOR INTENSO x 440ML",
+      "marcaId": "37390879-f6be-4c31-bc97-9dff30cb096e",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708713917990"
+    },
+    {
+      "id": "e0e7090a-eb54-4263-9543-22e55049c82a",
+      "codigo": "MUESTRASPK",
+      "nombre": "MUESTRASPK",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "fa22f732-ecff-4171-ba79-d791835ab16b",
+      "codigo": "NT-DOGMA",
+      "nombre": "NT-DOGMA",
+      "marcaId": "0cacfacb-03aa-4174-8cb6-4c819c29a6e0",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "e5e4a071-7412-4e6a-95ee-7ceafd153036",
+      "codigo": "NT-ORANGE",
+      "nombre": "NT-ORANGE PLANCHA",
+      "marcaId": "0cacfacb-03aa-4174-8cb6-4c819c29a6e0",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "f86b544c-179c-45e2-a096-74b022dfaacc",
+      "codigo": "NT-THERMOPLUS",
+      "nombre": "NT-TERMOPLUS PLANCHA",
+      "marcaId": "0cacfacb-03aa-4174-8cb6-4c819c29a6e0",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "7514ab43-5228-4319-8ccc-9b3ca05ea3cd",
+      "codigo": "NT-TIGER",
+      "nombre": "NT-TIGER MAQUINA DE CORTE PROFESIONAL",
+      "marcaId": "0cacfacb-03aa-4174-8cb6-4c819c29a6e0",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "e35bdf03-4dd5-48ef-a490-9a619527c15b",
+      "codigo": "NT-VENUS",
+      "nombre": "NT-VENUS PLANCHA",
+      "marcaId": "0cacfacb-03aa-4174-8cb6-4c819c29a6e0",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "483ca131-ca62-4dd7-a7db-56e070044dd7",
+      "codigo": "NT-WOWIRON",
+      "nombre": "NT-WOW IRON PLANCHA",
+      "marcaId": "0cacfacb-03aa-4174-8cb6-4c819c29a6e0",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "88854d09-767d-4e56-b686-b9e1a43fdb5c",
+      "codigo": "PT012",
+      "nombre": "PK MANTENIMIENTO COLOR AVELLANA POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082152"
+    },
+    {
+      "id": "dc2e1bc4-2a21-45a2-ae68-e9eb772cae53",
+      "codigo": "PT013",
+      "nombre": "PK MANTENIMIENTO COLOR AVELLANA POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082756"
+    },
+    {
+      "id": "c9975ca7-9517-40c6-96f6-9b9a422735c8",
+      "codigo": "PT016",
+      "nombre": "PK MANTENIMIENTO COLOR MOKACHINO POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082046"
+    },
+    {
+      "id": "c36a758b-8fdc-466f-8fa1-7874e7d70f6e",
+      "codigo": "PT017",
+      "nombre": "PK MANTENIMIENTO COLOR MOKACHINO POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082831"
+    },
+    {
+      "id": "7d6b7179-6f22-4c79-8782-3b4340eb8541",
+      "codigo": "PT031",
+      "nombre": "PK RIZOS GEL FLUIDO SACHET 30 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707999184737"
+    },
+    {
+      "id": "3e189d52-15a1-4170-8f47-c8853cc77357",
+      "codigo": "PT032",
+      "nombre": "PK MANTENIMIENTO COLOR CENIZO SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082596"
+    },
+    {
+      "id": "e8f30460-cdf7-4476-8a4d-d5aa222f56ac",
+      "codigo": "PT033",
+      "nombre": "PK MANTENIMIENTO COLOR ROJO SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082022"
+    },
+    {
+      "id": "a1748e42-d150-47b8-9835-3709ca0915a4",
+      "codigo": "PT034",
+      "nombre": "PK MANTENIMIENTO COLOR CHOCOLATE SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082909"
+    },
+    {
+      "id": "982c9a30-67ae-4cfa-9762-95a02f6f8fcf",
+      "codigo": "PT037",
+      "nombre": "PK MANTENIMIENTO COLOR COBRE SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082336"
+    },
+    {
+      "id": "478eaedd-4067-4a33-bf1e-8be3f37a2dee",
+      "codigo": "PT040",
+      "nombre": "PK MANTENIMIENTO COLOR HUMO SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082749"
+    },
+    {
+      "id": "7a1fab61-5324-45d9-bf72-b3b9721ecb91",
+      "codigo": "PT041",
+      "nombre": "PK MANTENIMIENTO COLOR NEGRO SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082923"
+    },
+    {
+      "id": "99ca1a80-1bf9-4892-8050-34556f983f3d",
+      "codigo": "PT043",
+      "nombre": "PK MANTENIMIENTO COLOR SHAMPOO CENIZO SACHET x 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082510"
+    },
+    {
+      "id": "d5f65e21-a6dd-489b-97ea-2c2da31bb168",
+      "codigo": "PT044",
+      "nombre": "PK MANTENIMIENTO COLOR PLATINO SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082008"
+    },
+    {
+      "id": "f1ab69bb-2839-4394-b213-25be28414117",
+      "codigo": "PT045",
+      "nombre": "PK MANTENIMIENTO COLOR BEIGE SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082053"
+    },
+    {
+      "id": "2e9ac287-5ac2-4c8a-8111-a655832dca09",
+      "codigo": "PT074",
+      "nombre": "PK MANTENIMIENTO COLOR MALVA SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082633"
+    },
+    {
+      "id": "d8683d5b-43a9-4a1c-9881-e573bf57ceb9",
+      "codigo": "PT083",
+      "nombre": "PK MANTENIMIENTO COLOR AVELLANA SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082220"
+    },
+    {
+      "id": "c5397bdb-6342-4514-9040-066d375370c5",
+      "codigo": "PT085",
+      "nombre": "PK MANTENIMIENTO COLOR MOKACHINO SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082404"
+    },
+    {
+      "id": "92e404aa-79d6-4dca-8c78-476c585e951e",
+      "codigo": "PT088",
+      "nombre": "PK ACTIVAR COBRE VIAL x 25 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082787"
+    },
+    {
+      "id": "d54ae649-c07b-4254-b896-6cb498ac343b",
+      "codigo": "PT143",
+      "nombre": "PK MANTENIMIENTO COLOR CENIZO POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134497"
+    },
+    {
+      "id": "69f51882-aef3-4f6c-bc32-529474e56275",
+      "codigo": "PT144",
+      "nombre": "PK MANTENIMIENTO COLOR CENIZO POTE x 500 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134701"
+    },
+    {
+      "id": "d92d99bf-1068-4c4d-9cf3-baaaba9a22e5",
+      "codigo": "PT145",
+      "nombre": "PK MANTENIMIENTO COLOR NEGRO POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707999184911"
+    },
+    {
+      "id": "e55c6550-4523-45ca-a429-0ad9d2f82a33",
+      "codigo": "PT147",
+      "nombre": "PK LACIO SEDUCTOR TERMOPROTECTOR POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134428"
+    },
+    {
+      "id": "e820232c-5a4d-44a5-a7c1-666e2f5be375",
+      "codigo": "PT149",
+      "nombre": "PK MANTENIMIENTO COLOR SHAMPOO CENIZO POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709064998300"
+    },
+    {
+      "id": "46a8a7b8-60e3-43bb-a000-acb5261d28c2",
+      "codigo": "PT155",
+      "nombre": "PK LACIO SEDUCTOR TERMOPROTECTOR SACHET x 30 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707999184836"
+    },
+    {
+      "id": "5b25fb0b-8866-4c2f-ae44-51545696a07a",
+      "codigo": "PT158",
+      "nombre": "PK MANTENIMIENTO COLOR MALVA POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134992"
+    },
+    {
+      "id": "14cf8413-e7dc-4e73-871b-962af9acbeb5",
+      "codigo": "PT164",
+      "nombre": "PK MANTENIMIENTO COLOR ROJO POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709466454077"
+    },
+    {
+      "id": "b8ce3857-ab27-4b50-8b4d-73a416a7c2a6",
+      "codigo": "PT166",
+      "nombre": "PK MANTENIMIENTO COLOR CHOCOLATE POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134329"
+    },
+    {
+      "id": "0002393e-0e65-462d-8943-15d0eb0ca9d5",
+      "codigo": "PT169",
+      "nombre": "PK RIZOS GEL FLUIDO POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707999184102"
+    },
+    {
+      "id": "b00a64c1-2dba-4f60-8c3d-fdaaea5e50ae",
+      "codigo": "PT170",
+      "nombre": "PK RIZOS GEL FLUIDO POTE x 500 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709064998379"
+    },
+    {
+      "id": "90d8f049-3be0-435a-949e-363114a5c808",
+      "codigo": "PT174",
+      "nombre": "PK REPAIR THERAPY TRATAMIENTO INTENSIVO POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134602"
+    },
+    {
+      "id": "03e78312-b134-4335-a9cd-5a8d99b66d65",
+      "codigo": "PT200",
+      "nombre": "PK MILKERATIN SHAMPOO POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707999184010"
+    },
+    {
+      "id": "b6c2a9dc-91a2-449c-a490-49c021f53c70",
+      "codigo": "PT203",
+      "nombre": "PK MILKERATIN RINSE POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134046"
+    },
+    {
+      "id": "279dfb6a-002f-4f0c-90e1-924e86c82bc3",
+      "codigo": "PT227",
+      "nombre": "PK MILKERATIN RINSE SACHET 30 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134244"
+    },
+    {
+      "id": "71191769-84f8-4a2c-921b-73db6f80460e",
+      "codigo": "PT228",
+      "nombre": "PK MILKERATIN SHAMPOO SACHET 30 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707999184669"
+    },
+    {
+      "id": "ffd5a757-8d11-4232-85a4-8c4d7dc1840b",
+      "codigo": "PT238",
+      "nombre": "PK MANTENIMIENTO COLOR BEIGE POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134916"
+    },
+    {
+      "id": "02e70a4a-f922-4346-bdfd-e94c51038465",
+      "codigo": "PT249",
+      "nombre": "PK MANTENIMIENTO COLOR NEGRO POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134145"
+    },
+    {
+      "id": "8a52c48d-30fa-4f3c-ac8a-92316b57cb24",
+      "codigo": "PT250",
+      "nombre": "PK COLOR CARE SHAMPOO POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134657"
+    },
+    {
+      "id": "d3d8add6-2acf-4042-8001-4d909fcd94fa",
+      "codigo": "PT280",
+      "nombre": "PK MANTENIMIENTO COLOR COBRE POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134534"
+    },
+    {
+      "id": "155cf714-9168-4adc-ad26-9c822e34d4b7",
+      "codigo": "PT281",
+      "nombre": "PK MANTENIMIENTO COLOR ROJO POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134664"
+    },
+    {
+      "id": "03097649-35f8-4fd4-885d-de8912431cbf",
+      "codigo": "PT282",
+      "nombre": "PK MANTENIMIENTO COLOR CENIZO POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134459"
+    },
+    {
+      "id": "0c5db6f1-be9b-480b-abd9-9b0991f34674",
+      "codigo": "PT283",
+      "nombre": "PK MANTENIMIENTO COLOR HUMO POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134565"
+    },
+    {
+      "id": "34398b9f-1e7b-4c08-a70b-32ed7e01d3e5",
+      "codigo": "PT284",
+      "nombre": "PK MANTENIMIENTO COLOR COBRE POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134442"
+    },
+    {
+      "id": "979763c5-f720-416d-978d-dee83f154b82",
+      "codigo": "PT285",
+      "nombre": "PK MANTENIMIENTO COLOR BEIGE POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707999184645"
+    },
+    {
+      "id": "9f84a804-686b-46fe-939c-0777e8e9ed48",
+      "codigo": "PT287",
+      "nombre": "PK MANTENIMIENTO COLOR PLATINO POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707999184980"
+    },
+    {
+      "id": "49cef12e-8235-4484-8db6-3f7ba8a6c4a1",
+      "codigo": "PT289",
+      "nombre": "PK MANTENIMIENTO COLOR PLATINO POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707999184935"
+    },
+    {
+      "id": "82621440-a6bb-4953-acc2-6b1e5c82fe34",
+      "codigo": "PT290",
+      "nombre": "PK COLOR CARE SHAMPOO SACHET 30 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707999184829"
+    },
+    {
+      "id": "b4ece654-b7ff-4a9a-b894-0a1a8b9f3385",
+      "codigo": "PT297",
+      "nombre": "PK ACTIVAR VERDE VIAL x 25 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707999184614"
+    },
+    {
+      "id": "574d4bca-82e2-446b-b4da-71a03f6834d1",
+      "codigo": "PT392",
+      "nombre": "PK MILKERATIN SHAMPOO POTE x 500 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709466454039"
+    },
+    {
+      "id": "ebdaf659-5c4c-4396-95ea-d83b4b885676",
+      "codigo": "PT395",
+      "nombre": "PK CRESPOS LOCION HIDRATANTE ANTIFRIZZ SPRAY x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134633"
+    },
+    {
+      "id": "71bddccb-dcf5-4350-9f35-ea6619372fcd",
+      "codigo": "PT396",
+      "nombre": "PK CRESPOS CREMA DE PEINAR POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134343"
+    },
+    {
+      "id": "82a12413-98ce-4c1a-a650-3d656b11c627",
+      "codigo": "PT410",
+      "nombre": "PK CRESPOS CREMA DE PEINAR SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134725"
+    },
+    {
+      "id": "167a5f4e-bf83-4bd5-8528-4671b5a47108",
+      "codigo": "PT411",
+      "nombre": "PK CRESPOS TRATAMIENTO SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134596"
+    },
+    {
+      "id": "71ef0177-df00-41c6-a7a4-65d9f40eeb07",
+      "codigo": "PT420",
+      "nombre": "PK LACIO SEDUCTOR TERMOPROTECTOR POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7708132134350"
+    },
+    {
+      "id": "c42f0b88-6a68-4806-99d6-109e86824464",
+      "codigo": "PT485",
+      "nombre": "PK CRESPOS SHAMPOO HUMECTANTE POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082084"
+    },
+    {
+      "id": "0fb6ba85-c5e8-44bb-8b1b-65d5c8ae4497",
+      "codigo": "PT486",
+      "nombre": "PK CRESPOS SHAMPOO HUMECTANTE SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082992"
+    },
+    {
+      "id": "d06c4357-f884-4ab4-8ff2-b0e0b758469b",
+      "codigo": "PT487",
+      "nombre": "PK CRESPOS GEL LIQUIDO DEFINIDOR POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082688"
+    },
+    {
+      "id": "27a7c10f-2f96-47cd-b105-a12fd0433eb8",
+      "codigo": "PT488",
+      "nombre": "PK CRESPOS GEL LIQUIDO DEFINIDOR SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082541"
+    },
+    {
+      "id": "3f6fc1f8-0e7a-4717-96da-34df2ce57155",
+      "codigo": "PT489",
+      "nombre": "PK MANTENIMIENTO COLOR MALVA POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082503"
+    },
+    {
+      "id": "96df3bfc-ae64-4051-a18e-4bc79e90a8c3",
+      "codigo": "PT490",
+      "nombre": "PK MANTENIMIENTO COLOR CHOCOLATE POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082671"
+    },
+    {
+      "id": "f0bc4022-4d86-44eb-abd2-635942eec47f",
+      "codigo": "PT498",
+      "nombre": "PK MANTENIMIENTO COLOR COBRE DORADO POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082237"
+    },
+    {
+      "id": "52c718d8-5006-44f3-8eb5-03f485e05c7e",
+      "codigo": "PT509",
+      "nombre": "PK MANTENIMIENTO COLOR HUMO POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7709961118528"
+    },
+    {
+      "id": "b591601e-5e3e-4dff-a823-65cf7c8f9d3e",
+      "codigo": "PT511",
+      "nombre": "PK MANTENIMIENTO COLOR COBRE DORADO POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082244"
+    },
+    {
+      "id": "3e0ec762-64cc-4fa5-8bbf-f732abc4c144",
+      "codigo": "PT512",
+      "nombre": "PK MANTENIMIENTO COLOR COBRE DORADO SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082657"
+    },
+    {
+      "id": "16ed51f3-0bc5-42ef-ad5a-143229fb504f",
+      "codigo": "PT515",
+      "nombre": "PK REPAIR THERAPY TRATAMIENTO INTENSIVO POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082589"
+    },
+    {
+      "id": "49939096-6088-434d-abc4-d7cab7c8dfe1",
+      "codigo": "PT516",
+      "nombre": "PK REPAIR THERAPY TRATAMIENTO INTENSIVO SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082428"
+    },
+    {
+      "id": "ec3ddb1f-8db1-454d-9248-070edfe34cda",
+      "codigo": "PT518",
+      "nombre": "PK REPAIR THERAPY SHAMPOO HIDRO REPARADOR POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082848"
+    },
+    {
+      "id": "5720d0b6-6aed-49c1-bb82-28c2b58fc31a",
+      "codigo": "PT519",
+      "nombre": "PK REPAIR THERAPY SHAMPOO HIDRO REPARADOR SACHET x 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082206"
+    },
+    {
+      "id": "0366f35a-8c30-4146-98ba-428c06a8b1ea",
+      "codigo": "PT521",
+      "nombre": "PK REPAIR THERAPY OLEO CAPILAR BRILLO MISTICO x 60 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082916"
+    },
+    {
+      "id": "07cc7f15-bdd9-46b5-ab76-b5a4c4c7351f",
+      "codigo": "PT523",
+      "nombre": "PK MILKERATIN RINSE POTE x 500 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082466"
+    },
+    {
+      "id": "13e8e0eb-f7d0-4601-bbc6-df10203d23fd",
+      "codigo": "PT544",
+      "nombre": "PK CRESPOS CREMA DE PEINAR POTE x 500 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082701"
+    },
+    {
+      "id": "8bf46905-6c71-4b19-96e7-aef919c7d37f",
+      "codigo": "PT545",
+      "nombre": "PK CRESPOS SHAMPOO HUMECTANTE POTE x 500 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082213"
+    },
+    {
+      "id": "90d0e067-c71f-4e2d-920c-24818105b47c",
+      "codigo": "PT547",
+      "nombre": "PK MASCARILLA CORRECTORA BLANCO POLAR POTE x 350 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "5382d2a1-1dd0-48f2-9c87-e27111677e11",
+      "codigo": "PT548",
+      "nombre": "PK MASCARILLA CORRECTORA BLANCO POLAR SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": null
+    },
+    {
+      "id": "0aa54c10-52fd-4144-b7e4-f0674df24247",
+      "codigo": "PT560",
+      "nombre": "PK MANTENIMIENTO COLOR VIOLETA ROJIZO POTE x 300 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082329"
+    },
+    {
+      "id": "f396ebb9-077d-4f5c-b078-abae8ec45b18",
+      "codigo": "PT561",
+      "nombre": "PK COLOR CARE MASCARILLA ESCUDO CROMATICO x 350 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082060"
+    },
+    {
+      "id": "9622ffb8-fd3f-419d-a66c-80eeefb00d05",
+      "codigo": "PT562",
+      "nombre": "PK MILKERATIN MASCARILLA REALINEACION TERMICA x 350 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082121"
+    },
+    {
+      "id": "104dc9f2-4631-4355-8b1c-ad359a3f824f",
+      "codigo": "PT563",
+      "nombre": "PK REPAIR THERAPY MASCARILLA BOND-PLEX x 350 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082497"
+    },
+    {
+      "id": "0ab55a6a-d80f-48bb-945c-8b385484fba8",
+      "codigo": "PT565",
+      "nombre": "PK MANTENIMIENTO COLOR VIOLETA ROJIZO SACHET 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082343"
+    },
+    {
+      "id": "3bc1d554-7d69-42d0-a423-d671def9fca4",
+      "codigo": "PT567",
+      "nombre": "PK MILKERATIN MASCARILLA REALINEACION TERMICA x 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082763"
+    },
+    {
+      "id": "1fc41fed-ae3c-414e-91e8-714bb4fbf5eb",
+      "codigo": "PT568",
+      "nombre": "PK COLOR CARE MASCARILLA ESCUDO CROMATICO x 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082930"
+    },
+    {
+      "id": "2748b22d-9a7d-4e87-8833-6506cc048438",
+      "codigo": "PT569",
+      "nombre": "PK REPAIR THERAPY MASCARILLA BOND-PLEX x 40 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082374"
+    },
+    {
+      "id": "8bb680ff-1677-4269-a557-5455e404d4f9",
+      "codigo": "PT571",
+      "nombre": "PK SHOT PREVENCION PUNTAS ABIERTAS CAJA x 10 UNDS 13 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082305"
+    },
+    {
+      "id": "d13e70b2-aa2e-4c32-82d7-b9f6d123f273",
+      "codigo": "PT572",
+      "nombre": "PK SHOT PREVENCION QUIEBRE CAPILAR CAJA x 10 UNDS 13 GRS",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082947"
+    },
+    {
+      "id": "3bd85174-ff09-46e0-bce8-8eec4bfbdb13",
+      "codigo": "PT588",
+      "nombre": "PK MANTENIMIENTO COLOR VIOLETA ROJIZO POTE x 150 ML",
+      "marcaId": "5736eff8-0952-4e68-9c7b-cc70eebc9dbf",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7707931082442"
+    },
+    {
+      "id": "56a5b6ac-eace-4bfb-ba22-847620562049",
+      "codigo": "SBT280",
+      "nombre": "SUNBEAT PROTECTOR SOLAR KIDS TUBO x 200 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615280"
+    },
+    {
+      "id": "fba35bf4-c62d-4aa1-88e0-b9af971eb189",
+      "codigo": "SBT488",
+      "nombre": "SUNBEAT PROTECTOR SOLAR USO DIARIO TUBO x 90 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615488"
+    },
+    {
+      "id": "ce52f330-2a63-4c74-ae81-2cbb1251bd3d",
+      "codigo": "SBT501",
+      "nombre": "PROTECTOR SOLAR FACIAL Y CORPORAL SUNBEAT LOCIÓN  6/9/35g",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615501"
+    },
+    {
+      "id": "4d6f4c8e-59c0-473c-87b1-67f56733bf4d",
+      "codigo": "SBT587",
+      "nombre": "SUNBEAT PROTECTOR SOLAR FACIAL TUBO x 90 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615587"
+    },
+    {
+      "id": "59232fa3-b850-4315-8196-cace98565e68",
+      "codigo": "SBT976",
+      "nombre": "SUNBEAT PROTECTOR SOLAR SPORT TUBO x 200 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615976"
+    },
+    {
+      "id": "16ca5382-7198-4f6f-902a-125db5d5386f",
+      "codigo": "SFX631",
+      "nombre": "SUPER FIX1 GEL FIJADOR MUJER POTE x 230 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615631"
+    },
+    {
+      "id": "4671f933-e37e-44e8-bebb-821b3af1259c",
+      "codigo": "SFX730",
+      "nombre": "SUPER FIX1 GEL FIJADOR PRINCESS POTE x 230 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615730"
+    },
+    {
+      "id": "83de737a-4bdc-4215-bd90-d06a97c67fa9",
+      "codigo": "SFX785",
+      "nombre": "SUPER FIX1 GEL FIJADOR POTE x 100 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615785"
+    },
+    {
+      "id": "fc1e3b80-69c6-435e-a947-99d7e1eba704",
+      "codigo": "SFX884",
+      "nombre": "SUPER FIX1 GEL FIJADOR POTE x 1000 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615884"
+    },
+    {
+      "id": "27943b1b-afd8-4518-b349-ffa78262fa6c",
+      "codigo": "SFX987",
+      "nombre": "SUPER FIX1 GEL FIJADOR  SACHET 15 g. RISTRA x 24",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615983"
+    },
+    {
+      "id": "a8554745-de60-4149-8c90-d984ca5739b5",
+      "codigo": "SFX990",
+      "nombre": "SUPER FIX1 GEL FIJADOR POTE x 230 g.",
+      "marcaId": "86568d64-3a7c-4085-b27c-8a89a6b7b415",
+      "modoDeUso": null,
+      "imagenUrl": null,
+      "puntosPorVenta": 10,
+      "codigoBarras": "7503023615990"
+    }
+  ],
+  "niveles": [
+    {
+      "id": "b8a10148-452c-41b2-af79-f16c79d61477",
+      "nombre": "Bronce",
+      "puntosMinimos": 100,
+      "descripcionPremio": "PENDIENTE: definir premio nivel Bronce"
+    },
+    {
+      "id": "4f0c107a-dd3e-4fae-97ba-112b148753af",
+      "nombre": "Plata",
+      "puntosMinimos": 500,
+      "descripcionPremio": "PENDIENTE: definir premio nivel Plata"
+    },
+    {
+      "id": "69e08b38-942e-46d0-aa31-c833d91dedf2",
+      "nombre": "Oro",
+      "puntosMinimos": 1500,
+      "descripcionPremio": "PENDIENTE: definir premio nivel Oro"
+    }
+  ],
+  "config": [
+    {
+      "clave": "texto_premios",
+      "valor": "Acumula puntos con cada venta que registres y alcanza niveles para obtener premios exclusivos."
+    }
+  ],
+  "tiendas": [
+    {
+      "nit": "900123456",
+      "nombre": "Tienda Demo",
+      "activa": true
+    }
+  ]
+}

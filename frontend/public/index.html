@@ -100,12 +100,42 @@
         <form id="register-form">
           <div id="register-msg" class="alert" style="display:none;"></div>
           <div class="form-group">
-            <label for="nombre">Tu nombre</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
+            <label for="nombre">Tu nombre completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre y apellidos" required>
+          </div>
+          <div class="form-group">
+            <label for="regCedula">Cédula</label>
+            <input type="text" id="regCedula" name="regCedula" placeholder="Número de identificación" required inputmode="numeric">
           </div>
           <div class="form-group">
             <label for="nitTienda">NIT de tu tienda</label>
             <input type="text" id="nitTienda" name="nitTienda" placeholder="Ej: 900123456" required inputmode="numeric">
+          </div>
+          <div class="form-group">
+            <label for="regTelefono">Teléfono / WhatsApp</label>
+            <input type="tel" id="regTelefono" name="regTelefono" placeholder="Ej: 3101234567" required inputmode="tel">
+          </div>
+          <div class="form-group">
+            <label for="regCorreo">Correo electrónico</label>
+            <input type="email" id="regCorreo" name="regCorreo" placeholder="tu@correo.com" required>
+          </div>
+          <div class="form-group">
+            <label for="regCiudad">Ciudad</label>
+            <input type="text" id="regCiudad" name="regCiudad" placeholder="Ej: Bogotá" required>
+          </div>
+          <div class="form-group">
+            <label for="regFechaNac">Fecha de nacimiento</label>
+            <input type="date" id="regFechaNac" name="regFechaNac" required>
+          </div>
+          <div class="form-group">
+            <label for="regGenero">Género</label>
+            <select id="regGenero" name="regGenero" required>
+              <option value="" disabled selected>Selecciona...</option>
+              <option value="Femenino">Femenino</option>
+              <option value="Masculino">Masculino</option>
+              <option value="Otro">Otro</option>
+              <option value="Prefiero no decir">Prefiero no decir</option>
+            </select>
           </div>
           <div class="form-group">
             <label for="regPin">Crea un PIN (mín. 4 dígitos)</label>

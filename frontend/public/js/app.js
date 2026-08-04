@@ -156,8 +156,22 @@ window.pageInit = {
       const nombre = registerForm.nombre.value.trim();
       const nitTienda = registerForm.nitTienda.value.trim();
       const pin = registerForm.regPin.value;
+      const cedula = document.getElementById('regCedula').value.trim();
+      const telefono = document.getElementById('regTelefono').value.trim();
+      const correo = document.getElementById('regCorreo').value.trim();
+      const ciudad = document.getElementById('regCiudad').value.trim();
+      const fechaNacimiento = document.getElementById('regFechaNac').value;
+      const genero = document.getElementById('regGenero').value;
+
+      if (!cedula || !telefono || !correo || !ciudad || !fechaNacimiento || !genero) {
+        registerMsg.className = 'alert alert-error';
+        registerMsg.textContent = 'Todos los campos son obligatorios.';
+        registerMsg.style.display = 'block';
+        return;
+      }
+
       try {
-        const data = await api.registrar({ nombre, nitTienda, pin });
+        const data = await api.registrar({ nombre, nitTienda, pin, cedula, telefono, correo, ciudad, fechaNacimiento, genero });
         registerMsg.className = 'alert alert-success';
         registerMsg.innerHTML = `¡Registro exitoso! Tu código de acceso es: <strong>${data.codigoAcceso}</strong>. Anótalo, lo necesitas para iniciar sesión.`;
         registerMsg.style.display = 'block';

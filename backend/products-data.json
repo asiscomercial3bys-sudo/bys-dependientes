@@ -1,0 +1,1695 @@
+{
+  "brands": [
+    "AGIVA",
+    "ALUCINANTE",
+    "BADI",
+    "CHOCOLISS/AMARITE",
+    "GRYNTEC",
+    "LECHE PAL PELO",
+    "NEW TURBO SAS",
+    "PROKPIL",
+    "TECNOGLOBAL"
+  ],
+  "products": [
+    {
+      "codigo": "AGV17142",
+      "nombre": "AGIVA CERA EFECTO MATE #3 POTE 155 ML",
+      "marca": "AGIVA",
+      "codigoBarras": "8683348000035"
+    },
+    {
+      "codigo": "AGV17144",
+      "nombre": "AGIVA CERA PELO EN GOMA #5 POTE 155 ML",
+      "marca": "AGIVA",
+      "codigoBarras": "8683348000004"
+    },
+    {
+      "codigo": "AGV17145",
+      "nombre": "AGIVA CERA FUERTE SPIDER #6 POTE 155 ML",
+      "marca": "AGIVA",
+      "codigoBarras": "8683348000653"
+    },
+    {
+      "codigo": "AGV17148",
+      "nombre": "AGIVA CERA EN POLVO SUAVE #1 CAJA 20 GRS",
+      "marca": "AGIVA",
+      "codigoBarras": "8698703025851"
+    },
+    {
+      "codigo": "AGV17149",
+      "nombre": "AGIVA CERA EN POLVO MEDIA #2 CAJA 20 GRS",
+      "marca": "AGIVA",
+      "codigoBarras": "8698703025868"
+    },
+    {
+      "codigo": "AGV17150",
+      "nombre": "AGIVA CERA EN POLVO FUERTE #3 CAJA 20 GRS",
+      "marca": "AGIVA",
+      "codigoBarras": "8698703025875"
+    },
+    {
+      "codigo": "AGV17175",
+      "nombre": "AGIVA GEL AFEITAR SHAVING COOL GEL LITRO",
+      "marca": "AGIVA",
+      "codigoBarras": "8683348000301"
+    },
+    {
+      "codigo": "AGV17204",
+      "nombre": "AGIVA CERA POLVO PEINADOS MORADO X 20 GR",
+      "marca": "AGIVA",
+      "codigoBarras": "8683348000240"
+    },
+    {
+      "codigo": "AGV17205",
+      "nombre": "AGIVA CERA GEL COOL BRIGTH MORADO #8 POTE X 155ML",
+      "marca": "AGIVA",
+      "codigoBarras": "8683348000080"
+    },
+    {
+      "codigo": "AGV17206",
+      "nombre": "AGIVA CERA GEL NEGRO #9 X 155ML",
+      "marca": "AGIVA",
+      "codigoBarras": "8683348000066"
+    },
+    {
+      "codigo": "AGV17207",
+      "nombre": "AGIVA CERA CREMA BRILLANTINA X 155ML",
+      "marca": "AGIVA",
+      "codigoBarras": "8683348000097"
+    },
+    {
+      "codigo": "AGV17211",
+      "nombre": "AGIVA CERA GEL AQUA STRONG NARANJA #1 POTE 155 ML",
+      "marca": "AGIVA",
+      "codigoBarras": "8683348000028"
+    },
+    {
+      "codigo": "AGV17212",
+      "nombre": "AGIVA CERA  GEL AQUA ULTRA STRONG #2 POTE 155 ML",
+      "marca": "AGIVA",
+      "codigoBarras": "8683348000011"
+    },
+    {
+      "codigo": "AGV17213",
+      "nombre": "AGIVA CERA GEL AQUA GROOMING AMARILO #4 POTE 155 ML",
+      "marca": "AGIVA",
+      "codigoBarras": "8683348000059"
+    },
+    {
+      "codigo": "AGV17214",
+      "nombre": "AGIVA CERA CREMA BRILLO CAFE #7 POTE 155 ML",
+      "marca": "AGIVA",
+      "codigoBarras": "8683348000073"
+    },
+    {
+      "codigo": "AGV17218",
+      "nombre": "AGIVA EFECTO SPIDER #10 POTE 155 ML",
+      "marca": "AGIVA",
+      "codigoBarras": "8683348000042"
+    },
+    {
+      "codigo": "ALCD002",
+      "nombre": "TRATAMIENTO ACONDICIONADOR ALUCINANTE SOFT MODE 500 mL",
+      "marca": "ALUCINANTE",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "ALSH001",
+      "nombre": "SHAMPOO PURIFICANTE ALUCINANTE CLEAN MOOD 500 mL",
+      "marca": "ALUCINANTE",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "ALSR004",
+      "nombre": "SERUM CAPILAR PURIFICANTE ALUCINANTE BALANCE DROPS 120 mL",
+      "marca": "ALUCINANTE",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "ALTM005",
+      "nombre": "PRIMER TERMOPROTECTOR CAPILAR ALUCINANTE PRIMER 250 mL",
+      "marca": "ALUCINANTE",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "BBS143",
+      "nombre": "BARBER STYLE GEL FIJADOR POTE x 200 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615143"
+    },
+    {
+      "codigo": "BBS242",
+      "nombre": "BARBER STYLE GEL FIJADOR POTE x 250 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615242"
+    },
+    {
+      "codigo": "BBS341",
+      "nombre": "BARBER STYLE GEL FIJADOR  POTE x 450 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615341"
+    },
+    {
+      "codigo": "BBS440",
+      "nombre": "BARBER STYLE GEL FIJADOR POTE x 1000 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615440"
+    },
+    {
+      "codigo": "BBS709",
+      "nombre": "BARBER STYLE GEL FIJADOR POTE x 100 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "BBS843",
+      "nombre": "BARBER STYLE GEL FIJADOR SACHET 15 g. RISTRA x 24",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615846"
+    },
+    {
+      "codigo": "BBS945",
+      "nombre": "CREMA PARA PEINAR BARBER STYLE 8/200ml",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615945"
+    },
+    {
+      "codigo": "BBSG013",
+      "nombre": "BARBER STYLE GEL FIJADOR FIJACIÓN MEGAFIRME GOLD POTE x 250 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "BBSG112",
+      "nombre": "BARBER STYLE GEL FIJADOR FIJACIÓN MEGAFIRME GOLD POTE x 1000 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "BL764",
+      "nombre": "BADI SHAMPOO EN SECO LOVE SPRAY 200 ML",
+      "marca": "BADI",
+      "codigoBarras": "8696630144065"
+    },
+    {
+      "codigo": "BL765",
+      "nombre": "BADI SHAMPOO EN SECO SUMMER SPRAY 200 ML",
+      "marca": "BADI",
+      "codigoBarras": "8696630144072"
+    },
+    {
+      "codigo": "BL766",
+      "nombre": "BADI SHAMPOO EN SECO RETRO SPRAY 200 ML",
+      "marca": "BADI",
+      "codigoBarras": "8696630144089"
+    },
+    {
+      "codigo": "BL768",
+      "nombre": "BADI LACA EXTRA FUERTE  SPRAY 400 ML",
+      "marca": "BADI",
+      "codigoBarras": "8696630136374"
+    },
+    {
+      "codigo": "BL770",
+      "nombre": "BADI HAIR MOUSE LADY BELLA ULTRA STRONG X 300ML",
+      "marca": "BADI",
+      "codigoBarras": "8696630137203"
+    },
+    {
+      "codigo": "CHL001",
+      "nombre": "CHL SHAMPOO PASO 1 POTE X 450 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754914920"
+    },
+    {
+      "codigo": "CHL002",
+      "nombre": "CHL ALISANTE PROG PASO 2 POTE X 450 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754914418"
+    },
+    {
+      "codigo": "CHL003",
+      "nombre": "CHL MASCARILLA PASO 3 POTE X 450 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754912650"
+    },
+    {
+      "codigo": "CHL004",
+      "nombre": "KIT HERBAL SHAMPO X 60ML+ TTO X 60 ML+ SERUM X 60ML + ACEITE X 30ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "CHL010105",
+      "nombre": "CHL ALISANTE PROG PASO 2 PLEX POTE X 250 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754918546"
+    },
+    {
+      "codigo": "CHL010117",
+      "nombre": "CHL SHAMPOO REPARADOR POTE X 60 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7709343674819"
+    },
+    {
+      "codigo": "CHL0101172",
+      "nombre": "CHL SERUM TRATAMIENTO POTE X 60 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754918232"
+    },
+    {
+      "codigo": "CHL010817",
+      "nombre": "CHL TRATAMIENTO CAPILAR CRESPOS POTE X 120 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754911813"
+    },
+    {
+      "codigo": "CHL0108171",
+      "nombre": "CHL TRATAMIENTO REPARADOR POTE X 60 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7709997818225"
+    },
+    {
+      "codigo": "CHL0108173",
+      "nombre": "CHL TRATAMIENTO CAPILAR CRESPOS POTE X 500 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754912018"
+    },
+    {
+      "codigo": "CHL0108174",
+      "nombre": "CHL TRATAMIENTO CAPILAR CRESPOS SACHET 30 ML C X 12",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754919321"
+    },
+    {
+      "codigo": "CHL0108175",
+      "nombre": "CHL SHAMPOO DE ROMERO Y BIOTINA SACHET 30 ML C X 12",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754910151"
+    },
+    {
+      "codigo": "CHL0117",
+      "nombre": "CHL TRATAMIENTO REPARADOR SACHET 30 ML C X 12",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754919314"
+    },
+    {
+      "codigo": "CHL01170",
+      "nombre": "CHL SHAMPOO REPARADOR SACHET 30 ML C X 12",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754918010"
+    },
+    {
+      "codigo": "CHL101020",
+      "nombre": "CHL SHAMPOO REPARADOR POTE X 1000 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754918782"
+    },
+    {
+      "codigo": "CHL101021",
+      "nombre": "CHL SHAMPOO PASO 1 POTE X 250 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707315250214"
+    },
+    {
+      "codigo": "CHL10104",
+      "nombre": "CHL MASCARILLA PASO 3 POTE X 250 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754911288"
+    },
+    {
+      "codigo": "CHL10105",
+      "nombre": "CHL ALISANTE PROG PASO 2 POTE X 250 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754915781"
+    },
+    {
+      "codigo": "CHL10105PLEX",
+      "nombre": "CHL ALISANTE PROG PASO 2 PLEX POTE X 160 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754914821"
+    },
+    {
+      "codigo": "CHL10106",
+      "nombre": "CHL KIT ALISANTE PROG X 80 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754918850"
+    },
+    {
+      "codigo": "CHL10106PLEX",
+      "nombre": "CHL ALISANTE PROG PASO 2 PLEX POTE X 450 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7709990663167"
+    },
+    {
+      "codigo": "CHL10107",
+      "nombre": "CHL KIT ALISANTE PROG X 160 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754918157"
+    },
+    {
+      "codigo": "CHL10117",
+      "nombre": "CHL SHAMPOO REPARADOR POTE X 250 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754910571"
+    },
+    {
+      "codigo": "CHL101170",
+      "nombre": "CHL SHAMPOO CONTROL CASPA POTE X 250 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "CHL1012",
+      "nombre": "CHL ACEITE REPARADOR SACHET 10 ML C X 12",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754917945"
+    },
+    {
+      "codigo": "CHL104",
+      "nombre": "CHL SHAMPOO LIMPIEZA PASO 1 POTE x 500 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7709990597394"
+    },
+    {
+      "codigo": "CHL105",
+      "nombre": "CHL SHAMPOO PASO 1 POTE X 1000 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7709990414752"
+    },
+    {
+      "codigo": "CHL106",
+      "nombre": "CHL SHAMPOO REPARADOR POTE X 500 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754916856"
+    },
+    {
+      "codigo": "CHL108",
+      "nombre": "CHL ALISANTE PROG PASO 2 POTE X 1000 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7709990414745"
+    },
+    {
+      "codigo": "CHL10802",
+      "nombre": "CHL SHAMPOO DE ROMERO BIOTINA POTE X 250 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754919055"
+    },
+    {
+      "codigo": "CHL10817",
+      "nombre": "CHL TRATAMIENTO REPARADOR POTE X 1000 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7709990663112"
+    },
+    {
+      "codigo": "CHL111",
+      "nombre": "CHL TRATAMIENTO LISO REPARADOR POTE X 500 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7709990663129"
+    },
+    {
+      "codigo": "CHL112",
+      "nombre": "CHL ACEITE REPARADOR POTE X 30 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754914234"
+    },
+    {
+      "codigo": "CHL116",
+      "nombre": "CHL SERUM TRATAMIENTO POTE X 120 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754910731"
+    },
+    {
+      "codigo": "CHL117",
+      "nombre": "CHL SERUM TRATAMIENTO SACHET 30 ML C X 12",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754913756"
+    },
+    {
+      "codigo": "CHL123",
+      "nombre": "CHL TRATAMIENTO LISO REPARADOR POTE X 200 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754918461"
+    },
+    {
+      "codigo": "CHL125",
+      "nombre": "CHL SERUM TRATAMIENTO POTE X 500 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754913701"
+    },
+    {
+      "codigo": "CHL126",
+      "nombre": "CHL AMPOLLETA REPARADORA ENVASE X 10 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707315255424"
+    },
+    {
+      "codigo": "CHL128",
+      "nombre": "CHL ACEITE REPARADOR POTE X 60 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754915491"
+    },
+    {
+      "codigo": "CHL130",
+      "nombre": "CHL SHAMPOO DE ROMERO Y BIOTINA POTE X 500 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707754919260"
+    },
+    {
+      "codigo": "CHL131",
+      "nombre": "CHL TONICO DE ROMERO Y BIOTINA POTE X 120 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7709343674888"
+    },
+    {
+      "codigo": "CHL132",
+      "nombre": "AMT TTO CAPIL CANNABIS POTE x 400 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707315251631"
+    },
+    {
+      "codigo": "CHL133",
+      "nombre": "AMT TTO CAPIL AJO Y CEBOLLA  POTE x 400 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707315259484"
+    },
+    {
+      "codigo": "CHL134",
+      "nombre": "AMT TTO CAPIL MIEL Y ARGAN POTE x 400 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707315252812"
+    },
+    {
+      "codigo": "CHL135",
+      "nombre": "AMT TTO CAPIL FRUTOS ROJOS POTE x 400 ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707315254342"
+    },
+    {
+      "codigo": "CHL140",
+      "nombre": "AMT TTO CAPIL CANNABIS SACHET 30 ML C x 20",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707315256247"
+    },
+    {
+      "codigo": "CHL141",
+      "nombre": "AMT TTO CAPIL AJO Y CEBOLLA SACHET 30 ML C x 20",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707315256735"
+    },
+    {
+      "codigo": "CHL142",
+      "nombre": "AMT TTO CAPIL FRUTOS ROJOS SACHET 30 ML C x 20",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": "7707315254861"
+    },
+    {
+      "codigo": "COMBOML250CHOCOLISS",
+      "nombre": "CHL SHAMPOO PASO #1 ALISANTE PASO #2 MASCARILA PASO #3 X 250ML",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "COMBOML440MLRIZOS",
+      "nombre": "KIT RIZOS X 440ML (1 SHAM+ 1 MASC +1 TERMO AFRO X 440ML+ 1 OLEO X 35ML)",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "COMBOML500MLREPARADOPHERBAL",
+      "nombre": "KIT REPARADOR HERBALFLUSS500ML (1SHAMPOO X 500ML+ TTO X 500ML +ACEITE X 30ML REPARADOR)",
+      "marca": "CHOCOLISS/AMARITE",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "COMBOMLCRESPOSPK",
+      "nombre": "PKML CREMA PARA PEINAR X 300+ LOCION CRESPO X 150ML+ GEL FLUIDO RIZO X 300ML",
+      "marca": "PROKPIL",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "DLA10422",
+      "nombre": "DLA SHAMPOO DE CEBOLLA DEL ARBOL CAJA X 12 SACHET X 40ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708713917617"
+    },
+    {
+      "codigo": "DLA10425",
+      "nombre": "DLA TONICO CAPILAR DE CEBOLLA 120ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709844639430"
+    },
+    {
+      "codigo": "DLA10430",
+      "nombre": "DLA ACONDICIONADOR DE CEBOLLA DEL ARBOL 1000 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709799034496"
+    },
+    {
+      "codigo": "DLA10432",
+      "nombre": "DLA ACONDICIONADOR DE CEBOLLA DEL ARBOL X CAJA 12 SACHET X 40 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708713917709"
+    },
+    {
+      "codigo": "DLA10452",
+      "nombre": "DLA SHAMPOO ACIDO HIALURONICO BIOTINA Y ARGAN X CAJA X 12 UND",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708713917501"
+    },
+    {
+      "codigo": "DLA10460",
+      "nombre": "DLA ACONDICIONADOR ACIDO HIALURONICO BIOTINA Y ARGAN X 1000ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708713917396"
+    },
+    {
+      "codigo": "GRTC010",
+      "nombre": "GRYNTEC ACEITE COCO 50 ML X UNIDAD",
+      "marca": "GRYNTEC",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "GRTC011",
+      "nombre": "GRYNTEC ACEITE ALMENDRAS 15 ML X UNIDAD",
+      "marca": "GRYNTEC",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "GRTC012",
+      "nombre": "GRYNTEC ACEITE ALMENDRAS 50 ML X UNIDAD",
+      "marca": "GRYNTEC",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "GRTC013",
+      "nombre": "GRYNTEC ACEITE NARANJA 15 ML X UNIDAD",
+      "marca": "GRYNTEC",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "GRTC014",
+      "nombre": "GRYNTEC ACEITE NARANJA 50 ML X UNIDAD",
+      "marca": "GRYNTEC",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "GRTC08",
+      "nombre": "GRYNTEC KIT DECOLORANTE VELLOS",
+      "marca": "GRYNTEC",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "GRTC09",
+      "nombre": "GRYNTEC ACEITE COCO 15 ML X UNIDAD",
+      "marca": "GRYNTEC",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "GRTC1",
+      "nombre": "GRYNTEC LAMPIÑA CREMA DEPILADORA CAJA x 6 SACHET x 30 GRS",
+      "marca": "GRYNTEC",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "GRTC2",
+      "nombre": "GRYNTEC LAMPIÑA CREMA DEPILADORA FACIAL CAJA X 6 SACHET 15 GRS",
+      "marca": "GRYNTEC",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "GRTC3",
+      "nombre": "GRYNTEC LAMPIÑA CREMA DEPILADORA DOYPACK 120 GRS",
+      "marca": "GRYNTEC",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "GRTC4",
+      "nombre": "GRYNTEC TINTE DE CEJAS COLOR CHOCOLATE X 0,8 GR",
+      "marca": "GRYNTEC",
+      "codigoBarras": "7709350603055"
+    },
+    {
+      "codigo": "GRTC5",
+      "nombre": "GRYNTEC TINTE DE CEJAS COLOR CASTAÑO CLARO X 0,8 GR",
+      "marca": "GRYNTEC",
+      "codigoBarras": "7709350603048"
+    },
+    {
+      "codigo": "GRTC6",
+      "nombre": "GRYNTEC TINTE DE CEJAS COLOR CASTAÑO OSCURO X 0,8 GR",
+      "marca": "GRYNTEC",
+      "codigoBarras": "7709380589015"
+    },
+    {
+      "codigo": "GRTC7",
+      "nombre": "GRYNTEC TINTE DE CEJAS COLOR NEGRO X 0,8 GR",
+      "marca": "GRYNTEC",
+      "codigoBarras": "7709380589077"
+    },
+    {
+      "codigo": "LAK10800",
+      "nombre": "LPP KIDS SHAMPOO RIZOS PERFECTOS POTE LITRO",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "LAK10801",
+      "nombre": "LPP KIDS SHAMPOO RIZOS PERFECTOS x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708993672305"
+    },
+    {
+      "codigo": "LAK10802",
+      "nombre": "LPP KIDS SHAMPOO RIZOS PERFECTOS x 250 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709028027824"
+    },
+    {
+      "codigo": "LAK10803",
+      "nombre": "LPP KIDS SHAMPOO RIZOS PERFECTOS CAJA X 12UND X 40ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709028027831"
+    },
+    {
+      "codigo": "LAK11800",
+      "nombre": "LPP KIDS ACONDICIONADOR RIZOS PERFECTOS POTE LITRO",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "LAK11801",
+      "nombre": "LPP KIDS ACONDICIONADOR RIZOS PERFECTOS  x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708993672329"
+    },
+    {
+      "codigo": "LAK11802",
+      "nombre": "LPP KIDS ACONDICIONADOR RIZOS PERFECTOS x 250 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709028027848"
+    },
+    {
+      "codigo": "LAK13801",
+      "nombre": "LPP KIDS GELATINA SLIME DEFINIDORA RIZOS PERFECTOS x 600 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708993672381"
+    },
+    {
+      "codigo": "LAK14001",
+      "nombre": "LPP SPLASH CAPILAR CANDY x 100 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "LCA10051",
+      "nombre": "LPP AFRO MASCARILLA POTE x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709990241280"
+    },
+    {
+      "codigo": "LCA10052",
+      "nombre": "LPP AFRO SHAMPOO POTE x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709290264187"
+    },
+    {
+      "codigo": "LCA10057",
+      "nombre": "LPP AFRO SHAMPOO SACHET 30 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709990241297"
+    },
+    {
+      "codigo": "LCA10058",
+      "nombre": "LPP AFRO TERMO SACHET 30 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709990327601"
+    },
+    {
+      "codigo": "LCA10059",
+      "nombre": "LPP AFRO MASCARILLA SACHET 30 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709284699865"
+    },
+    {
+      "codigo": "LCA10061",
+      "nombre": "LPP AFRO MASCARILLA SACHET 100ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709990241204"
+    },
+    {
+      "codigo": "LCA10062",
+      "nombre": "LPP AFRO TERMO SACHET 100 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709990241266"
+    },
+    {
+      "codigo": "LCA10088",
+      "nombre": "LPP AFRO TERMO POTE x 250 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709122487715"
+    },
+    {
+      "codigo": "LCA10089",
+      "nombre": "LPP AFRO MASCARILLA POTE x 250 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709092870609"
+    },
+    {
+      "codigo": "LCA10090",
+      "nombre": "LPP AFRO SHAMPOO POTE x 250 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709122487722"
+    },
+    {
+      "codigo": "LCA10096",
+      "nombre": "OLEO RIZOS Y AFRO X 35ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709715124898"
+    },
+    {
+      "codigo": "LCA10097",
+      "nombre": "LPP AFRO DEFINIDOR DE RIZOS POTE x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708713917242"
+    },
+    {
+      "codigo": "LCA10098",
+      "nombre": "LPP AFRO  CO-WASH ACONDICIONADOR LIMPIADOR POTE x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708713917433"
+    },
+    {
+      "codigo": "LCA10099",
+      "nombre": "LPP AFRO AGUA DE COCO REFRESCANTE X 250ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709727426782"
+    },
+    {
+      "codigo": "LCA10129",
+      "nombre": "LPP AFRO MASCARILLA POTE LITRO",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709092870630"
+    },
+    {
+      "codigo": "LCA10130",
+      "nombre": "LPP AFRO SHAMPOO POTE LITRO",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709315023300"
+    },
+    {
+      "codigo": "LCC10070",
+      "nombre": "LPP COLOR TERMO POTE x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709360571641"
+    },
+    {
+      "codigo": "LCC10071",
+      "nombre": "LPP COLOR MASCARILLA POTE x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709284699872"
+    },
+    {
+      "codigo": "LCC10072",
+      "nombre": "LPP COLOR SHAMPOO POTE x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709284699803"
+    },
+    {
+      "codigo": "LCC10076",
+      "nombre": "LPP COLOR MASCARILLA SACHET 30 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709360571689"
+    },
+    {
+      "codigo": "LCC10078",
+      "nombre": "LPP COLOR TERMO SACHET 30 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709092870678"
+    },
+    {
+      "codigo": "LCC10079",
+      "nombre": "LPP COLOR SHAMPOO SACHET 30 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709360571610"
+    },
+    {
+      "codigo": "LCC10086",
+      "nombre": "LPP COLOR MASCARILLA POTE x 250 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709122487708"
+    },
+    {
+      "codigo": "LCC10087",
+      "nombre": "LPP COLOR SHAMPOO POTE x 250 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709092870623"
+    },
+    {
+      "codigo": "LCC10131",
+      "nombre": "LPP COLOR MASCARILLA POTE LITRO",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709122487739"
+    },
+    {
+      "codigo": "LCC10132",
+      "nombre": "LPP COLOR SHAMPOO POTE LITRO",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709315023331"
+    },
+    {
+      "codigo": "LCC10185",
+      "nombre": "SPRAY AMINO 12",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709028027800"
+    },
+    {
+      "codigo": "LCD10250",
+      "nombre": "LPP ACONDICIONADOR DETOX POTE x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708713917518"
+    },
+    {
+      "codigo": "LCF10094",
+      "nombre": "LPP TRADICIONAL FINISH REPARAPUNTAS CHIA SPRAY x 35 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708975697807"
+    },
+    {
+      "codigo": "LCK10710",
+      "nombre": "LPP KIDS CREMA PARA PEINAR  x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709360571634"
+    },
+    {
+      "codigo": "LCK10711",
+      "nombre": "LPP KIDS CREMA PARA PEINAR  POTE x 250 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709360571665"
+    },
+    {
+      "codigo": "LCK10713",
+      "nombre": "LPP KIDS CREMA PARA PEINAR  X 30 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709936491557"
+    },
+    {
+      "codigo": "LCK10720",
+      "nombre": "LPP KIDS ACONDICIONADOR POTE x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709485294302"
+    },
+    {
+      "codigo": "LCK10721",
+      "nombre": "LPP KIDS ACONDICIONADOR POTE x 250 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709485294357"
+    },
+    {
+      "codigo": "LCK10724",
+      "nombre": "LPP KIDS ACONDICIONADOR POTE LITRO",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709936491571"
+    },
+    {
+      "codigo": "LCK10730",
+      "nombre": "LPP KIDS SHAMPOO NUTRITIVO x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709783749276"
+    },
+    {
+      "codigo": "LCK10731",
+      "nombre": "LPP KIDS SHAMPOO NUTRITIVO POTE x 250 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709485294340"
+    },
+    {
+      "codigo": "LCK10732",
+      "nombre": "LPP KIDS SHAMPOO NUTRITIVO POTE LITRO",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709979863946"
+    },
+    {
+      "codigo": "LCK10733",
+      "nombre": "LPP KIDS SHAMPOO NUTRITIVO SACHET 30 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709485294388"
+    },
+    {
+      "codigo": "LCK10740",
+      "nombre": "LPP KIDS SHAMPOO+ACONDICIONADOR POTEx 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709936491526"
+    },
+    {
+      "codigo": "LCK10741",
+      "nombre": "LPP KIDS SHAMPOO+ACONDICIONADOR POTE X  250ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709936491564"
+    },
+    {
+      "codigo": "LCK10745",
+      "nombre": "LPP KIDS CREMA PARA PEINAR CON FIJACION X 440ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708713917075"
+    },
+    {
+      "codigo": "LCP10000",
+      "nombre": "LPP TRADICIONAL TERMO POTE x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709990327649"
+    },
+    {
+      "codigo": "LCP10001",
+      "nombre": "LPP TRADICIONAL RECO POTE x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709990327670"
+    },
+    {
+      "codigo": "LCP10002",
+      "nombre": "LPP TRADICIONAL SHAMPOO POTE x 440 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709990327694"
+    },
+    {
+      "codigo": "LCP10010",
+      "nombre": "LPP TRADICIONAL TERMO SACHET 100 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709990241259"
+    },
+    {
+      "codigo": "LCP10011",
+      "nombre": "LPP TRADICIONAL RECO SACHET 100 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709990241242"
+    },
+    {
+      "codigo": "LCP10021",
+      "nombre": "LPP TRADICIONAL RECO SACHET 30 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709315023355"
+    },
+    {
+      "codigo": "LCP10022",
+      "nombre": "LPP TRADICIONAL SHAMPOO SACHET 30 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709783749214"
+    },
+    {
+      "codigo": "LCP10082",
+      "nombre": "LPP TRADICIONAL TERMO POTE x 250 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709315023317"
+    },
+    {
+      "codigo": "LCP10083",
+      "nombre": "LPP TRADICIONAL RECO POTE x 250 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709122487753"
+    },
+    {
+      "codigo": "LCP10084",
+      "nombre": "LPP TRADICIONAL SHAMPOO POTE x 250 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709360571672"
+    },
+    {
+      "codigo": "LCP10127",
+      "nombre": "LPP TRADICIONAL RECO POTE LITRO",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709122487784"
+    },
+    {
+      "codigo": "LCP10128",
+      "nombre": "LPP TRADICIONAL SHAMPOO POTE LITRO",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709315023348"
+    },
+    {
+      "codigo": "LCP10601",
+      "nombre": "LPP MASCARILLA REGENERADOR INTENSO 7 OLEOS x 800 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709844639478"
+    },
+    {
+      "codigo": "LCP10605",
+      "nombre": "LPP MASCARILLA REGENERADOR INTENSO 7 OLEOS x 40 ML  UND",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708713917679"
+    },
+    {
+      "codigo": "LCP10609",
+      "nombre": "LPP SPLASH CAPILAR CELESTIAL BLUE 100ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709028027855"
+    },
+    {
+      "codigo": "LCP10614",
+      "nombre": "LPP MASCARILLA WOW  x 800 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708993672336"
+    },
+    {
+      "codigo": "LCP10615",
+      "nombre": "LPP MASCARILLA WOW x 40 ML X CAJAS(12 UNIDADES)",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708993672398"
+    },
+    {
+      "codigo": "LCP10618",
+      "nombre": "LPP SPLASH CAPILAR LOVE x 100 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708993672343"
+    },
+    {
+      "codigo": "LCS10719",
+      "nombre": "LPP KIDS DESENREDANTE  SPRAY x 250 ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7709936491588"
+    },
+    {
+      "codigo": "LPP10610",
+      "nombre": "LPP SHAMPOO REGENERADOR INTENSO x 440ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708713917891"
+    },
+    {
+      "codigo": "LPP10611",
+      "nombre": "LPP ACONDICIONADOR REGENERADOR INTENSO x 440ML",
+      "marca": "LECHE PAL PELO",
+      "codigoBarras": "7708713917990"
+    },
+    {
+      "codigo": "MUESTRASPK",
+      "nombre": "MUESTRASPK",
+      "marca": "PROKPIL",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "NT-DOGMA",
+      "nombre": "NT-DOGMA",
+      "marca": "NEW TURBO SAS",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "NT-ORANGE",
+      "nombre": "NT-ORANGE PLANCHA",
+      "marca": "NEW TURBO SAS",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "NT-THERMOPLUS",
+      "nombre": "NT-TERMOPLUS PLANCHA",
+      "marca": "NEW TURBO SAS",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "NT-TIGER",
+      "nombre": "NT-TIGER MAQUINA DE CORTE PROFESIONAL",
+      "marca": "NEW TURBO SAS",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "NT-VENUS",
+      "nombre": "NT-VENUS PLANCHA",
+      "marca": "NEW TURBO SAS",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "NT-WOWIRON",
+      "nombre": "NT-WOW IRON PLANCHA",
+      "marca": "NEW TURBO SAS",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "PT012",
+      "nombre": "PK MANTENIMIENTO COLOR AVELLANA POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082152"
+    },
+    {
+      "codigo": "PT013",
+      "nombre": "PK MANTENIMIENTO COLOR AVELLANA POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082756"
+    },
+    {
+      "codigo": "PT016",
+      "nombre": "PK MANTENIMIENTO COLOR MOKACHINO POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082046"
+    },
+    {
+      "codigo": "PT017",
+      "nombre": "PK MANTENIMIENTO COLOR MOKACHINO POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082831"
+    },
+    {
+      "codigo": "PT031",
+      "nombre": "PK RIZOS GEL FLUIDO SACHET 30 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707999184737"
+    },
+    {
+      "codigo": "PT032",
+      "nombre": "PK MANTENIMIENTO COLOR CENIZO SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082596"
+    },
+    {
+      "codigo": "PT033",
+      "nombre": "PK MANTENIMIENTO COLOR ROJO SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082022"
+    },
+    {
+      "codigo": "PT034",
+      "nombre": "PK MANTENIMIENTO COLOR CHOCOLATE SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082909"
+    },
+    {
+      "codigo": "PT037",
+      "nombre": "PK MANTENIMIENTO COLOR COBRE SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082336"
+    },
+    {
+      "codigo": "PT040",
+      "nombre": "PK MANTENIMIENTO COLOR HUMO SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082749"
+    },
+    {
+      "codigo": "PT041",
+      "nombre": "PK MANTENIMIENTO COLOR NEGRO SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082923"
+    },
+    {
+      "codigo": "PT043",
+      "nombre": "PK MANTENIMIENTO COLOR SHAMPOO CENIZO SACHET x 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082510"
+    },
+    {
+      "codigo": "PT044",
+      "nombre": "PK MANTENIMIENTO COLOR PLATINO SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082008"
+    },
+    {
+      "codigo": "PT045",
+      "nombre": "PK MANTENIMIENTO COLOR BEIGE SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082053"
+    },
+    {
+      "codigo": "PT074",
+      "nombre": "PK MANTENIMIENTO COLOR MALVA SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082633"
+    },
+    {
+      "codigo": "PT083",
+      "nombre": "PK MANTENIMIENTO COLOR AVELLANA SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082220"
+    },
+    {
+      "codigo": "PT085",
+      "nombre": "PK MANTENIMIENTO COLOR MOKACHINO SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082404"
+    },
+    {
+      "codigo": "PT088",
+      "nombre": "PK ACTIVAR COBRE VIAL x 25 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082787"
+    },
+    {
+      "codigo": "PT143",
+      "nombre": "PK MANTENIMIENTO COLOR CENIZO POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134497"
+    },
+    {
+      "codigo": "PT144",
+      "nombre": "PK MANTENIMIENTO COLOR CENIZO POTE x 500 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134701"
+    },
+    {
+      "codigo": "PT145",
+      "nombre": "PK MANTENIMIENTO COLOR NEGRO POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707999184911"
+    },
+    {
+      "codigo": "PT147",
+      "nombre": "PK LACIO SEDUCTOR TERMOPROTECTOR POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134428"
+    },
+    {
+      "codigo": "PT149",
+      "nombre": "PK MANTENIMIENTO COLOR SHAMPOO CENIZO POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7709064998300"
+    },
+    {
+      "codigo": "PT155",
+      "nombre": "PK LACIO SEDUCTOR TERMOPROTECTOR SACHET x 30 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707999184836"
+    },
+    {
+      "codigo": "PT158",
+      "nombre": "PK MANTENIMIENTO COLOR MALVA POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134992"
+    },
+    {
+      "codigo": "PT164",
+      "nombre": "PK MANTENIMIENTO COLOR ROJO POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7709466454077"
+    },
+    {
+      "codigo": "PT166",
+      "nombre": "PK MANTENIMIENTO COLOR CHOCOLATE POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134329"
+    },
+    {
+      "codigo": "PT169",
+      "nombre": "PK RIZOS GEL FLUIDO POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707999184102"
+    },
+    {
+      "codigo": "PT170",
+      "nombre": "PK RIZOS GEL FLUIDO POTE x 500 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7709064998379"
+    },
+    {
+      "codigo": "PT174",
+      "nombre": "PK REPAIR THERAPY TRATAMIENTO INTENSIVO POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134602"
+    },
+    {
+      "codigo": "PT200",
+      "nombre": "PK MILKERATIN SHAMPOO POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707999184010"
+    },
+    {
+      "codigo": "PT203",
+      "nombre": "PK MILKERATIN RINSE POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134046"
+    },
+    {
+      "codigo": "PT227",
+      "nombre": "PK MILKERATIN RINSE SACHET 30 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134244"
+    },
+    {
+      "codigo": "PT228",
+      "nombre": "PK MILKERATIN SHAMPOO SACHET 30 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707999184669"
+    },
+    {
+      "codigo": "PT238",
+      "nombre": "PK MANTENIMIENTO COLOR BEIGE POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134916"
+    },
+    {
+      "codigo": "PT249",
+      "nombre": "PK MANTENIMIENTO COLOR NEGRO POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134145"
+    },
+    {
+      "codigo": "PT250",
+      "nombre": "PK COLOR CARE SHAMPOO POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134657"
+    },
+    {
+      "codigo": "PT280",
+      "nombre": "PK MANTENIMIENTO COLOR COBRE POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134534"
+    },
+    {
+      "codigo": "PT281",
+      "nombre": "PK MANTENIMIENTO COLOR ROJO POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134664"
+    },
+    {
+      "codigo": "PT282",
+      "nombre": "PK MANTENIMIENTO COLOR CENIZO POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134459"
+    },
+    {
+      "codigo": "PT283",
+      "nombre": "PK MANTENIMIENTO COLOR HUMO POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134565"
+    },
+    {
+      "codigo": "PT284",
+      "nombre": "PK MANTENIMIENTO COLOR COBRE POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134442"
+    },
+    {
+      "codigo": "PT285",
+      "nombre": "PK MANTENIMIENTO COLOR BEIGE POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707999184645"
+    },
+    {
+      "codigo": "PT287",
+      "nombre": "PK MANTENIMIENTO COLOR PLATINO POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707999184980"
+    },
+    {
+      "codigo": "PT289",
+      "nombre": "PK MANTENIMIENTO COLOR PLATINO POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707999184935"
+    },
+    {
+      "codigo": "PT290",
+      "nombre": "PK COLOR CARE SHAMPOO SACHET 30 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707999184829"
+    },
+    {
+      "codigo": "PT297",
+      "nombre": "PK ACTIVAR VERDE VIAL x 25 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707999184614"
+    },
+    {
+      "codigo": "PT392",
+      "nombre": "PK MILKERATIN SHAMPOO POTE x 500 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7709466454039"
+    },
+    {
+      "codigo": "PT395",
+      "nombre": "PK CRESPOS LOCION HIDRATANTE ANTIFRIZZ SPRAY x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134633"
+    },
+    {
+      "codigo": "PT396",
+      "nombre": "PK CRESPOS CREMA DE PEINAR POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134343"
+    },
+    {
+      "codigo": "PT410",
+      "nombre": "PK CRESPOS CREMA DE PEINAR SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134725"
+    },
+    {
+      "codigo": "PT411",
+      "nombre": "PK CRESPOS TRATAMIENTO SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134596"
+    },
+    {
+      "codigo": "PT420",
+      "nombre": "PK LACIO SEDUCTOR TERMOPROTECTOR POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7708132134350"
+    },
+    {
+      "codigo": "PT485",
+      "nombre": "PK CRESPOS SHAMPOO HUMECTANTE POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082084"
+    },
+    {
+      "codigo": "PT486",
+      "nombre": "PK CRESPOS SHAMPOO HUMECTANTE SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082992"
+    },
+    {
+      "codigo": "PT487",
+      "nombre": "PK CRESPOS GEL LIQUIDO DEFINIDOR POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082688"
+    },
+    {
+      "codigo": "PT488",
+      "nombre": "PK CRESPOS GEL LIQUIDO DEFINIDOR SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082541"
+    },
+    {
+      "codigo": "PT489",
+      "nombre": "PK MANTENIMIENTO COLOR MALVA POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082503"
+    },
+    {
+      "codigo": "PT490",
+      "nombre": "PK MANTENIMIENTO COLOR CHOCOLATE POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082671"
+    },
+    {
+      "codigo": "PT498",
+      "nombre": "PK MANTENIMIENTO COLOR COBRE DORADO POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082237"
+    },
+    {
+      "codigo": "PT509",
+      "nombre": "PK MANTENIMIENTO COLOR HUMO POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7709961118528"
+    },
+    {
+      "codigo": "PT511",
+      "nombre": "PK MANTENIMIENTO COLOR COBRE DORADO POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082244"
+    },
+    {
+      "codigo": "PT512",
+      "nombre": "PK MANTENIMIENTO COLOR COBRE DORADO SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082657"
+    },
+    {
+      "codigo": "PT515",
+      "nombre": "PK REPAIR THERAPY TRATAMIENTO INTENSIVO POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082589"
+    },
+    {
+      "codigo": "PT516",
+      "nombre": "PK REPAIR THERAPY TRATAMIENTO INTENSIVO SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082428"
+    },
+    {
+      "codigo": "PT518",
+      "nombre": "PK REPAIR THERAPY SHAMPOO HIDRO REPARADOR POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082848"
+    },
+    {
+      "codigo": "PT519",
+      "nombre": "PK REPAIR THERAPY SHAMPOO HIDRO REPARADOR SACHET x 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082206"
+    },
+    {
+      "codigo": "PT521",
+      "nombre": "PK REPAIR THERAPY OLEO CAPILAR BRILLO MISTICO x 60 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082916"
+    },
+    {
+      "codigo": "PT523",
+      "nombre": "PK MILKERATIN RINSE POTE x 500 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082466"
+    },
+    {
+      "codigo": "PT544",
+      "nombre": "PK CRESPOS CREMA DE PEINAR POTE x 500 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082701"
+    },
+    {
+      "codigo": "PT545",
+      "nombre": "PK CRESPOS SHAMPOO HUMECTANTE POTE x 500 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082213"
+    },
+    {
+      "codigo": "PT547",
+      "nombre": "PK MASCARILLA CORRECTORA BLANCO POLAR POTE x 350 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "PT548",
+      "nombre": "PK MASCARILLA CORRECTORA BLANCO POLAR SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": null
+    },
+    {
+      "codigo": "PT560",
+      "nombre": "PK MANTENIMIENTO COLOR VIOLETA ROJIZO POTE x 300 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082329"
+    },
+    {
+      "codigo": "PT561",
+      "nombre": "PK COLOR CARE MASCARILLA ESCUDO CROMATICO x 350 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082060"
+    },
+    {
+      "codigo": "PT562",
+      "nombre": "PK MILKERATIN MASCARILLA REALINEACION TERMICA x 350 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082121"
+    },
+    {
+      "codigo": "PT563",
+      "nombre": "PK REPAIR THERAPY MASCARILLA BOND-PLEX x 350 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082497"
+    },
+    {
+      "codigo": "PT565",
+      "nombre": "PK MANTENIMIENTO COLOR VIOLETA ROJIZO SACHET 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082343"
+    },
+    {
+      "codigo": "PT567",
+      "nombre": "PK MILKERATIN MASCARILLA REALINEACION TERMICA x 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082763"
+    },
+    {
+      "codigo": "PT568",
+      "nombre": "PK COLOR CARE MASCARILLA ESCUDO CROMATICO x 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082930"
+    },
+    {
+      "codigo": "PT569",
+      "nombre": "PK REPAIR THERAPY MASCARILLA BOND-PLEX x 40 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082374"
+    },
+    {
+      "codigo": "PT571",
+      "nombre": "PK SHOT PREVENCION PUNTAS ABIERTAS CAJA x 10 UNDS 13 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082305"
+    },
+    {
+      "codigo": "PT572",
+      "nombre": "PK SHOT PREVENCION QUIEBRE CAPILAR CAJA x 10 UNDS 13 GRS",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082947"
+    },
+    {
+      "codigo": "PT588",
+      "nombre": "PK MANTENIMIENTO COLOR VIOLETA ROJIZO POTE x 150 ML",
+      "marca": "PROKPIL",
+      "codigoBarras": "7707931082442"
+    },
+    {
+      "codigo": "SBT280",
+      "nombre": "SUNBEAT PROTECTOR SOLAR KIDS TUBO x 200 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615280"
+    },
+    {
+      "codigo": "SBT488",
+      "nombre": "SUNBEAT PROTECTOR SOLAR USO DIARIO TUBO x 90 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615488"
+    },
+    {
+      "codigo": "SBT501",
+      "nombre": "PROTECTOR SOLAR FACIAL Y CORPORAL SUNBEAT LOCIÓN  6/9/35g",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615501"
+    },
+    {
+      "codigo": "SBT587",
+      "nombre": "SUNBEAT PROTECTOR SOLAR FACIAL TUBO x 90 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615587"
+    },
+    {
+      "codigo": "SBT976",
+      "nombre": "SUNBEAT PROTECTOR SOLAR SPORT TUBO x 200 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615976"
+    },
+    {
+      "codigo": "SFX631",
+      "nombre": "SUPER FIX1 GEL FIJADOR MUJER POTE x 230 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615631"
+    },
+    {
+      "codigo": "SFX730",
+      "nombre": "SUPER FIX1 GEL FIJADOR PRINCESS POTE x 230 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615730"
+    },
+    {
+      "codigo": "SFX785",
+      "nombre": "SUPER FIX1 GEL FIJADOR POTE x 100 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615785"
+    },
+    {
+      "codigo": "SFX884",
+      "nombre": "SUPER FIX1 GEL FIJADOR POTE x 1000 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615884"
+    },
+    {
+      "codigo": "SFX987",
+      "nombre": "SUPER FIX1 GEL FIJADOR  SACHET 15 g. RISTRA x 24",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615983"
+    },
+    {
+      "codigo": "SFX990",
+      "nombre": "SUPER FIX1 GEL FIJADOR POTE x 230 g.",
+      "marca": "TECNOGLOBAL",
+      "codigoBarras": "7503023615990"
+    }
+  ]
+}
