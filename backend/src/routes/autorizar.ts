@@ -94,9 +94,9 @@ router.post('/sync', async (req: Request, res: Response) => {
       autorizadas,
       sinCodigo: pendientes.length - conCodigo.length,
     });
-  } catch (e) {
+  } catch (e: any) {
     console.error('Error en sincronización:', e);
-    res.status(500).json({ error: 'Error interno' });
+    res.status(500).json({ error: 'Error interno', detalle: e?.message || String(e) });
   }
 });
 
