@@ -18,7 +18,4 @@ COPY frontend/public ./public-frontend
 ENV FRONTEND_PATH=/app/public-frontend
 
 EXPOSE 3000
-# Mantener el esquema de PostgreSQL alineado con el cliente Prisma generado.
-# Sin esta sincronización una actualización de campos hace que el login falle
-# con un 500 antes de validar las credenciales.
-CMD ["sh", "-c", "npx prisma db push --skip-generate && node dist/index.js"]
+CMD ["node", "dist/index.js"]
