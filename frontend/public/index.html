@@ -242,9 +242,10 @@
         <div id="scanner-container" style="display:none;margin-top:12px;">
           <video id="scanner-video" style="width:100%;border-radius:var(--radius-md);background:#000;" playsinline></video>
           <div style="display:flex;gap:8px;margin-top:8px;">
-            <input type="text" id="manual-barcode" placeholder="O escribe el código manualmente..." style="flex:1;padding:12px;border:1.5px solid var(--color-border);border-radius:var(--radius-sm);font-size:1rem;">
+            <input type="text" id="manual-barcode" placeholder="Escanea aquí con lector USB/Bluetooth o escribe el código..." autocomplete="off" style="flex:1;padding:12px;border:1.5px solid var(--color-border);border-radius:var(--radius-sm);font-size:1rem;">
             <button class="btn btn-primary" id="btn-manual-search" style="width:auto;padding:12px 16px;">Buscar</button>
           </div>
+          <p style="margin:8px 0 0;font-size:.82rem;color:var(--color-muted);">Con lector físico: deja el cursor en este campo y escanea. La búsqueda se hace automáticamente.</p>
           <button class="btn btn-link" id="btn-cancel-scan" style="margin-top:4px;width:100%;text-align:center;">Cancelar escáner</button>
         </div>
         <div id="scanner-result" style="display:none;margin-top:12px;"></div>

@@ -37,8 +37,19 @@ router.get('/barcode/:code', async (req: Request, res: Response) => {
     let code = String(req.params.code).trim();
     if (code.startsWith(']') && code.length > 3) code = code.slice(3);
 
+    // Algunos lectores UPC-A envían 12 dígitos mientras la base los guarda
+    // como EAN-13 con cero inicial. También aceptamos el código interno.
+    const codigos = [code];
+    if (/^\d{12}$/.test(code)) codigos.push(`0${code}`);
+    if (/^0\d{12}$/.test(code)) codigos.push(code.slice(1));
+
     const producto = await prisma.producto.findFirst({
-      where: { codigoBarras: code },
+      where: {
+        OR: [
+          { codigoBarras: { in: codigos } },
+          { codigo: { in: codigos } },
+        ],
+      },
       include: { marca: { select: { nombre: true, imagenUrl: true } } },
       omit: { precio: true },
     });

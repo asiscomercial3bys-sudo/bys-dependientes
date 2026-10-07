@@ -317,11 +317,15 @@ window.pageInit = {
     const videoEl = document.getElementById('scanner-video');
     window._selectedProduct = null;
     let debounceTimer;
+    let barcodeInputTimer;
+    let barcodeLookupInProgress = false;
 
     // Scanner button
     btnScan.onclick = () => {
       scannerContainer.style.display = 'block';
       btnScan.style.display = 'none';
+      manualBarcode.value = '';
+      manualBarcode.focus();
       startScanner(videoEl, handleBarcode);
     };
 
@@ -329,13 +333,18 @@ window.pageInit = {
       stopScanner();
       scannerContainer.style.display = 'none';
       btnScan.style.display = '';
+      clearTimeout(barcodeInputTimer);
     };
 
     async function handleBarcode(rawCode) {
+      if (barcodeLookupInProgress) return;
       // Algunos escáneres anteponen un identificador de simbología (ej: ]C1, ]E0).
       // Es siempre "]" + 2 caracteres; lo quitamos para dejar el código real.
       let code = (rawCode || '').trim();
       if (code.startsWith(']') && code.length > 3) code = code.slice(3);
+      if (!code) return;
+      barcodeLookupInProgress = true;
+      clearTimeout(barcodeInputTimer);
       stopScanner();
       scannerContainer.style.display = 'none';
       scannerResult.style.display = 'block';
@@ -345,16 +354,40 @@ window.pageInit = {
         selectProduct(producto);
         scannerResult.style.display = 'none';
       } catch (err) {
-        scannerResult.innerHTML = `<div class="alert alert-error">No se encontró producto con código ${code}. <button class="btn-link" onclick="document.getElementById('btn-scan').style.display='';document.getElementById('scanner-result').style.display='none';">Intentar de nuevo</button></div>`;
+        scannerContainer.style.display = 'block';
+        manualBarcode.value = code;
+        manualBarcode.focus();
+        scannerResult.innerHTML = `<div class="alert alert-error">No se encontró producto con código ${code}. Verifica el código o intenta escanear de nuevo.</div>`;
+      } finally {
+        barcodeLookupInProgress = false;
       }
     }
 
-    btnManualSearch.onclick = () => {
+    function buscarCodigoDelCampo() {
       const code = manualBarcode.value.trim();
       if (code) handleBarcode(code);
+    }
+
+    btnManualSearch.onclick = () => {
+      buscarCodigoDelCampo();
     };
     manualBarcode.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') { e.preventDefault(); btnManualSearch.click(); }
+      // Los lectores físicos suelen terminar con Enter o Tab.
+      if (e.key === 'Enter' || e.key === 'Tab') {
+        if (manualBarcode.value.trim()) {
+          e.preventDefault();
+          buscarCodigoDelCampo();
+        }
+      }
+    });
+    manualBarcode.addEventListener('input', () => {
+      // Algunos lectores no envían Enter. Si ingresan un código con rapidez,
+      // esperamos un instante y hacemos la búsqueda automáticamente.
+      clearTimeout(barcodeInputTimer);
+      const code = manualBarcode.value.trim();
+      if (code.length >= 6) {
+        barcodeInputTimer = setTimeout(buscarCodigoDelCampo, 250);
+      }
     });
 
     // Manual product search
