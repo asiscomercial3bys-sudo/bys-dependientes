@@ -22,3 +22,15 @@ export function authJwt(req: Request, res: Response, next: NextFunction): void {
     res.status(401).json({ error: 'Token inválido o expirado' });
   }
 }
+
+export function requireRole(role: 'asesor' | 'admin') {
+  return (req: Request, res: Response, next: NextFunction): void => {
+    authJwt(req, res, () => {
+      if (req.user?.role !== role) {
+        res.status(403).json({ error: 'No tienes permisos para esta operación' });
+        return;
+      }
+      next();
+    });
+  };
+}

@@ -94,6 +94,11 @@
         </div>
         <div class="login-divider">o</div>
         <button class="btn btn-outline" id="show-register">Soy nueva, registrarme</button>
+        <div style="margin-top:18px;text-align:center;font-size:0.9rem;">
+          <a href="#asesor-login" onclick="router.navigate('asesor-login');return false;">Acceso asesores comerciales</a>
+          <span style="color:var(--color-muted);"> · </span>
+          <a href="#admin-login" onclick="router.navigate('admin-login');return false;">Administración</a>
+        </div>
       </div>
       <div id="register-section" style="display:none;">
         <h2 class="section-title" style="margin-bottom:16px;">Crear cuenta</h2>
@@ -321,6 +326,61 @@
         <button type="submit" class="btn btn-primary">Guardar cambios</button>
       </form>
       <button class="btn btn-outline" id="btn-logout" style="color:var(--color-error);border-color:var(--color-error);">Cerrar sesión</button>
+    </div>
+  </template>
+
+  <template id="page-asesor-login">
+    <div class="page" style="padding-top:0;">
+      <div class="login-header">
+        <img src="/icons/icon-192.png" alt="Belleza & Salud" style="width:80px;height:80px;margin-bottom:12px;">
+        <h1>PORTAL ASESOR</h1><p>Inventario de clientes asignados</p>
+      </div>
+      <form id="asesor-login-form">
+        <div id="asesor-login-error" class="alert alert-error" style="display:none;"></div>
+        <div class="form-group"><label>Usuario</label><input name="usuario" required autocomplete="username"></div>
+        <div class="form-group"><label>PIN</label><input name="pin" type="password" required inputmode="numeric" autocomplete="current-password"></div>
+        <button class="btn btn-primary" type="submit">Ingresar como asesor</button>
+      </form>
+      <button class="btn btn-link" onclick="router.navigate('login')" style="margin-top:12px;width:100%;">Volver</button>
+    </div>
+  </template>
+
+  <template id="page-asesor">
+    <div class="page">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;"><h2 class="section-title" style="margin:0;">Mis clientes</h2><button id="asesor-logout" class="btn-link">Salir</button></div>
+      <div id="asesor-user" style="color:var(--color-muted);font-size:.9rem;margin-bottom:16px;"></div>
+      <div id="asesor-clientes"><p style="color:var(--color-muted);">Cargando clientes...</p></div>
+      <div id="inventario-form" style="display:none;margin-top:24px;">
+        <h2 class="section-title" id="inventario-titulo">Inventario</h2>
+        <p style="color:var(--color-muted);font-size:.9rem;margin-bottom:12px;">Registra el conteo actual. Al finalizar se habilitará el registro de ventas de la tienda.</p>
+        <input id="inventario-buscar" placeholder="Buscar producto o marca..." style="width:100%;padding:12px;border:1.5px solid var(--color-border);border-radius:var(--radius-sm);margin-bottom:12px;">
+        <div id="inventario-productos"></div>
+        <div class="form-group" style="margin-top:16px;"><label>Observación (opcional)</label><input id="inventario-observacion" maxlength="300" placeholder="Ej. Inventario inicial de visita"></div>
+        <button id="inventario-guardar" class="btn btn-primary">Finalizar inventario y habilitar tienda</button>
+        <button id="inventario-cancelar" class="btn btn-link" style="width:100%;margin-top:8px;">Cancelar</button>
+      </div>
+    </div>
+  </template>
+
+  <template id="page-admin-login">
+    <div class="page" style="padding-top:0;">
+      <div class="login-header"><img src="/icons/icon-192.png" alt="Belleza & Salud" style="width:80px;height:80px;margin-bottom:12px;"><h1>ADMINISTRACIÓN</h1><p>Asesores y clientes</p></div>
+      <div id="admin-login-area">
+        <form id="admin-login-form"><div id="admin-login-error" class="alert alert-error" style="display:none;"></div><div class="form-group"><label>Usuario</label><input name="usuario" required autocomplete="username"></div><div class="form-group"><label>PIN</label><input name="pin" type="password" required inputmode="numeric" autocomplete="current-password"></div><button class="btn btn-primary">Ingresar</button></form>
+        <button id="admin-show-bootstrap" class="btn btn-outline" style="margin-top:12px;">Crear primera cuenta administradora</button>
+      </div>
+      <div id="admin-bootstrap-area" style="display:none;"><h2 class="section-title">Primera administradora</h2><form id="admin-bootstrap-form"><div id="admin-bootstrap-error" class="alert alert-error" style="display:none;"></div><div class="form-group"><label>Nombre</label><input name="nombre" required></div><div class="form-group"><label>Usuario</label><input name="usuario" required autocomplete="username"></div><div class="form-group"><label>PIN nuevo</label><input name="pin" type="password" required minlength="4" inputmode="numeric"></div><button class="btn btn-primary">Crear cuenta</button></form></div>
+      <button class="btn btn-link" onclick="router.navigate('login')" style="margin-top:12px;width:100%;">Volver</button>
+    </div>
+  </template>
+
+  <template id="page-admin">
+    <div class="page">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;"><h2 class="section-title" style="margin:0;">Administración</h2><button id="admin-logout" class="btn-link">Salir</button></div>
+      <div class="card" style="margin-bottom:16px;"><h3 style="margin-bottom:12px;">Crear asesor</h3><form id="crear-asesor-form"><div class="form-group"><label>Nombre</label><input name="nombre" required></div><div class="form-group"><label>Usuario</label><input name="usuario" required></div><div class="form-group"><label>PIN inicial</label><input name="pin" type="password" minlength="4" required inputmode="numeric"></div><button class="btn btn-primary">Crear asesor</button></form></div>
+      <div class="card" style="margin-bottom:16px;"><h3 style="margin-bottom:12px;">Crear cliente</h3><form id="crear-tienda-form"><div class="form-group"><label>NIT</label><input name="nit" required inputmode="numeric"></div><div class="form-group"><label>Nombre de la tienda</label><input name="nombre" required></div><button class="btn btn-primary">Crear cliente</button></form></div>
+      <div class="card" style="margin-bottom:16px;"><h3 style="margin-bottom:12px;">Asignar cliente a asesor</h3><form id="asignar-cliente-form"><div class="form-group"><label>Asesor</label><select id="asignar-asesor" required></select></div><div class="form-group"><label>Cliente</label><select id="asignar-tienda" required></select></div><button class="btn btn-primary">Asignar y solicitar inventario</button></form></div>
+      <h3 class="section-title">Estado de clientes</h3><div id="admin-resumen"><p style="color:var(--color-muted);">Cargando...</p></div>
     </div>
   </template>
 

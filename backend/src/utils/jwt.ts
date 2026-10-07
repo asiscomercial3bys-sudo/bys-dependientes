@@ -3,8 +3,11 @@ import jwt from 'jsonwebtoken';
 const SECRET = process.env.JWT_SECRET || 'dev-secret';
 
 export interface JwtPayload {
-  dependienteId: string;
-  nitTienda: string;
+  role?: 'dependiente' | 'asesor' | 'admin';
+  dependienteId?: string;
+  asesorId?: string;
+  adminId?: string;
+  nitTienda?: string;
 }
 
 export function firmarToken(payload: JwtPayload): string {

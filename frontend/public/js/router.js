@@ -8,12 +8,15 @@ const router = {
   },
 
   navigate(page) {
-    if (!auth.isLoggedIn() && page !== 'login') {
+    const publicPages = ['login', 'asesor-login', 'admin-login'];
+    if (!auth.isLoggedIn() && !asesorAuth.isLoggedIn() && !adminAuth.isLoggedIn() && !publicPages.includes(page)) {
       page = 'login';
     }
     if (auth.isLoggedIn() && page === 'login') {
       page = 'inicio';
     }
+    if (page === 'asesor' && !asesorAuth.isLoggedIn()) page = 'asesor-login';
+    if (page === 'admin' && !adminAuth.isLoggedIn()) page = 'admin-login';
 
     this._currentPage = page;
     const html = this.loadPage(page);
@@ -42,13 +45,15 @@ const router = {
       venta: 'Registrar Venta',
       puntos: 'Mis Puntos',
       config: 'Configuración',
+      asesor: 'INVENTARIO',
+      admin: 'ADMINISTRACIÓN',
     };
     const topTitle = document.getElementById('topbar-title');
     if (topTitle) topTitle.textContent = titles[page] || 'B&S DEPENDIENTES';
 
     const topbar = document.getElementById('topbar');
     const navbar = document.getElementById('navbar');
-    if (page === 'login') {
+    if (publicPagesForTopbar(page)) {
       topbar && (topbar.style.display = 'none');
       navbar && (navbar.style.display = 'none');
       document.getElementById('app').style.paddingTop = '0';
@@ -69,3 +74,7 @@ const router = {
     this.navigate(hash || (auth.isLoggedIn() ? 'inicio' : 'login'));
   },
 };
+
+function publicPagesForTopbar(page) {
+  return ['login', 'asesor-login', 'admin-login', 'asesor', 'admin'].includes(page);
+}

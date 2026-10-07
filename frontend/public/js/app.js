@@ -486,6 +486,109 @@ window.pageInit = {
   },
 };
 
+Object.assign(window.pageInit, {
+  'asesor-login'() {
+    const form = document.getElementById('asesor-login-form');
+    form.onsubmit = async (e) => {
+      e.preventDefault();
+      const error = document.getElementById('asesor-login-error');
+      error.style.display = 'none';
+      try {
+        const data = await api.asesorLogin({ usuario: form.usuario.value.trim(), pin: form.pin.value });
+        asesorAuth.save(data.token, data.asesor);
+        router.navigate('asesor');
+      } catch (err) { error.textContent = err.error || 'No se pudo iniciar sesión'; error.style.display = 'block'; }
+    };
+  },
+
+  async asesor() {
+    const user = asesorAuth.getUser();
+    document.getElementById('asesor-user').textContent = user ? `Asesor: ${user.nombre}` : '';
+    document.getElementById('asesor-logout').onclick = () => { asesorAuth.logout(); router.navigate('asesor-login'); };
+    const clientes = document.getElementById('asesor-clientes');
+    const form = document.getElementById('inventario-form');
+    const productosDiv = document.getElementById('inventario-productos');
+    let clienteActual = null;
+    let productos = [];
+
+    function renderProductos(filtro = '') {
+      const q = filtro.toLowerCase();
+      const visibles = productos.filter(p => `${p.nombre} ${p.marca} ${p.codigo || ''}`.toLowerCase().includes(q));
+      productosDiv.innerHTML = visibles.map(p => `<div class="card" style="padding:12px;margin-bottom:8px;display:flex;align-items:center;gap:10px;"><div style="flex:1;"><strong>${p.nombre}</strong><br><span style="font-size:.82rem;color:var(--color-muted);">${p.marca}${p.codigo ? ` · ${p.codigo}` : ''}</span></div><input class="inventario-cantidad" data-id="${p.id}" type="number" min="0" value="${p.cantidadAnterior}" inputmode="numeric" style="width:78px;padding:10px;border:1.5px solid var(--color-border);border-radius:var(--radius-sm);text-align:center;"></div>`).join('') || '<p style="color:var(--color-muted);">No hay productos para mostrar.</p>';
+    }
+
+    async function abrirInventario(cliente) {
+      clienteActual = cliente;
+      document.getElementById('inventario-titulo').textContent = `Inventario: ${cliente.nombre}`;
+      form.style.display = 'block';
+      productosDiv.innerHTML = '<p style="color:var(--color-muted);">Cargando productos...</p>';
+      try { productos = await api.asesorProductos(cliente.nit); renderProductos(); }
+      catch (err) { productosDiv.innerHTML = `<div class="alert alert-error">${err.error || 'No se pudieron cargar los productos'}</div>`; }
+    }
+
+    try {
+      const data = await api.asesorClientes();
+      if (!data.length) { clientes.innerHTML = '<div class="card"><p>No tienes clientes asignados todavía.</p></div>'; return; }
+      clientes.innerHTML = data.map(c => `<button class="card asesor-cliente" data-nit="${c.nit}" style="width:100%;border:0;text-align:left;margin-bottom:10px;cursor:pointer;"><strong>${c.nombre}</strong><br><span style="font-size:.85rem;color:${c.inventarioHabilitado ? 'var(--color-success)' : 'var(--color-error)'};">${c.inventarioHabilitado ? 'Tienda habilitada' : 'Inventario inicial pendiente'}</span>${c.ultimoInventario ? `<br><span style="font-size:.8rem;color:var(--color-muted);">Último inventario: ${formatShortDate(c.ultimoInventario)}</span>` : ''}</button>`).join('');
+      clientes.querySelectorAll('.asesor-cliente').forEach(button => button.onclick = () => abrirInventario(data.find(c => c.nit === button.dataset.nit)));
+    } catch (err) { clientes.innerHTML = `<div class="alert alert-error">${err.error || 'No se pudieron cargar tus clientes'}</div>`; }
+
+    document.getElementById('inventario-buscar').oninput = (e) => renderProductos(e.target.value);
+    document.getElementById('inventario-cancelar').onclick = () => { form.style.display = 'none'; clienteActual = null; };
+    document.getElementById('inventario-guardar').onclick = async () => {
+      if (!clienteActual || !productos.length) return;
+      const button = document.getElementById('inventario-guardar');
+      const items = productos.map(p => {
+        const input = productosDiv.querySelector(`.inventario-cantidad[data-id="${p.id}"]`);
+        return { productoId: p.id, cantidad: Number(input ? input.value : p.cantidadAnterior) };
+      });
+      if (items.some(i => !Number.isInteger(i.cantidad) || i.cantidad < 0)) { showToast('Revisa las cantidades ingresadas'); return; }
+      button.disabled = true;
+      try {
+        await api.guardarInventario({ nitTienda: clienteActual.nit, items, observacion: document.getElementById('inventario-observacion').value.trim() });
+        showToast('Inventario finalizado. La tienda ya está habilitada.');
+        router.navigate('asesor');
+      } catch (err) { showToast(err.error || 'No se pudo guardar el inventario'); button.disabled = false; }
+    };
+  },
+
+  'admin-login'() {
+    const login = document.getElementById('admin-login-form');
+    const bootstrap = document.getElementById('admin-bootstrap-form');
+    document.getElementById('admin-show-bootstrap').onclick = () => { document.getElementById('admin-login-area').style.display = 'none'; document.getElementById('admin-bootstrap-area').style.display = 'block'; };
+    login.onsubmit = async (e) => {
+      e.preventDefault(); const error = document.getElementById('admin-login-error'); error.style.display = 'none';
+      try { const data = await api.adminLogin({ usuario: login.usuario.value.trim(), pin: login.pin.value }); adminAuth.save(data.token, data.admin); router.navigate('admin'); }
+      catch (err) { error.textContent = err.error || 'No se pudo iniciar sesión'; error.style.display = 'block'; }
+    };
+    bootstrap.onsubmit = async (e) => {
+      e.preventDefault(); const error = document.getElementById('admin-bootstrap-error'); error.style.display = 'none';
+      try { const data = await api.adminBootstrap({ nombre: bootstrap.nombre.value.trim(), usuario: bootstrap.usuario.value.trim(), pin: bootstrap.pin.value }); adminAuth.save(data.token, data.admin); router.navigate('admin'); }
+      catch (err) { error.textContent = err.error || 'No se pudo crear la cuenta'; error.style.display = 'block'; }
+    };
+  },
+
+  async admin() {
+    const resumen = document.getElementById('admin-resumen');
+    const asesoresSelect = document.getElementById('asignar-asesor');
+    const tiendasSelect = document.getElementById('asignar-tienda');
+    let data;
+    async function cargar() {
+      try {
+        data = await api.adminResumen();
+        asesoresSelect.innerHTML = data.asesores.filter(a => a.activo).map(a => `<option value="${a.id}">${a.nombre} (${a.usuario})</option>`).join('') || '<option value="">Crea un asesor primero</option>';
+        tiendasSelect.innerHTML = data.tiendas.map(t => `<option value="${t.nit}">${t.nombre} · ${t.nit}</option>`).join('') || '<option value="">Crea un cliente primero</option>';
+        resumen.innerHTML = data.tiendas.map(t => `<div class="card" style="margin-bottom:8px;"><strong>${t.nombre}</strong><br><span style="font-size:.82rem;color:var(--color-muted);">${t.nit}</span><br><span style="font-size:.85rem;color:${t.inventarioHabilitado ? 'var(--color-success)' : 'var(--color-error)'};">${t.inventarioHabilitado ? 'Habilitada' : 'Pendiente de inventario'}</span><br><span style="font-size:.82rem;color:var(--color-muted);">Asesores: ${t.asesores.join(', ') || 'Sin asignar'}</span></div>`).join('') || '<p style="color:var(--color-muted);">No hay clientes creados.</p>';
+      } catch (err) { resumen.innerHTML = `<div class="alert alert-error">${err.error || 'No se pudo cargar la administración'}</div>`; }
+    }
+    document.getElementById('admin-logout').onclick = () => { adminAuth.logout(); router.navigate('admin-login'); };
+    document.getElementById('crear-asesor-form').onsubmit = async (e) => { e.preventDefault(); const f = e.currentTarget; try { await api.crearAsesor({ nombre: f.nombre.value.trim(), usuario: f.usuario.value.trim(), pin: f.pin.value }); f.reset(); showToast('Asesor creado'); cargar(); } catch (err) { showToast(err.error || 'No se pudo crear el asesor'); } };
+    document.getElementById('crear-tienda-form').onsubmit = async (e) => { e.preventDefault(); const f = e.currentTarget; try { await api.crearTienda({ nit: f.nit.value.trim(), nombre: f.nombre.value.trim() }); f.reset(); showToast('Cliente creado'); cargar(); } catch (err) { showToast(err.error || 'No se pudo crear el cliente'); } };
+    document.getElementById('asignar-cliente-form').onsubmit = async (e) => { e.preventDefault(); if (!asesoresSelect.value || !tiendasSelect.value) { showToast('Primero crea un asesor y un cliente'); return; } try { const r = await api.asignarCliente({ asesorId: asesoresSelect.value, nitTienda: tiendasSelect.value }); showToast(r.inventarioPendiente ? 'Cliente asignado: queda pendiente el inventario inicial.' : 'Cliente asignado al asesor.'); cargar(); } catch (err) { showToast(err.error || 'No se pudo asignar el cliente'); } };
+    await cargar();
+  },
+});
+
 function showProductModal(name, modo) {
   const overlay = document.createElement('div');
   overlay.className = 'modal-overlay';

@@ -8,7 +8,7 @@ const router = Router();
 router.post('/', authJwt, async (req: Request, res: Response) => {
   try {
     const { productoId, cantidad } = req.body;
-    const dependienteId = req.user!.dependienteId;
+    const dependienteId = req.user!.dependienteId!;
 
     if (!productoId || !cantidad || cantidad < 1) {
       res.status(400).json({ error: 'productoId y cantidad (>= 1) son requeridos' });

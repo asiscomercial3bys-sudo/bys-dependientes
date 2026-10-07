@@ -87,7 +87,12 @@ router.post('/login', async (req: Request, res: Response) => {
       return;
     }
 
-    const token = firmarToken({ dependienteId: dependiente.id, nitTienda: dependiente.nitTienda });
+    if (!dependiente.tienda.inventarioHabilitado) {
+      res.status(403).json({ error: 'Esta tienda está pendiente de inventario inicial. Contacta a tu asesor comercial.' });
+      return;
+    }
+
+    const token = firmarToken({ role: 'dependiente', dependienteId: dependiente.id, nitTienda: dependiente.nitTienda });
     res.json({
       token,
       dependiente: {

@@ -8,6 +8,8 @@ import ventasRoutes from './routes/ventas';
 import puntosRoutes from './routes/puntos';
 import perfilRoutes from './routes/perfil';
 import autorizarRoutes from './routes/autorizar';
+import asesoresRoutes from './routes/asesores';
+import adminRoutes from './routes/admin';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -22,6 +24,8 @@ app.use('/ventas', ventasRoutes);
 app.use('/puntos', puntosRoutes);
 app.use('/perfil', perfilRoutes);
 app.use('/autorizar', autorizarRoutes);
+app.use('/asesores', asesoresRoutes);
+app.use('/admin', adminRoutes);
 
 app.get('/health', (_req, res) => res.json({ status: 'ok' }));
 

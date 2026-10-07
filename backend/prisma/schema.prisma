@@ -9,10 +9,14 @@ datasource db {
 }
 
 model Tienda {
-  nit          String        @id
-  nombre       String
-  activa       Boolean       @default(true)
-  dependientes Dependiente[]
+  nit                    String           @id
+  nombre                 String
+  activa                 Boolean          @default(true)
+  inventarioHabilitado   Boolean          @default(true) @map("inventario_habilitado")
+  inventarioInicializadoEn DateTime?      @map("inventario_inicializado_en")
+  dependientes           Dependiente[]
+  asignacionesAsesor     AsesorTienda[]
+  inventarios            Inventario[]
 
   @@map("tiendas")
 }
@@ -58,8 +62,70 @@ model Producto {
   precio          Int?    @map("precio")
   marca           Marca   @relation(fields: [marcaId], references: [id])
   ventas          Venta[]
+  inventarios     InventarioDetalle[]
 
   @@map("productos")
+}
+
+model Asesor {
+  id              String           @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  nombre          String
+  usuario         String           @unique
+  pinHash         String           @map("pin_hash")
+  activo          Boolean          @default(true)
+  fechaRegistro   DateTime         @default(now()) @map("fecha_registro")
+  asignaciones    AsesorTienda[]
+  inventarios     Inventario[]
+
+  @@map("asesores")
+}
+
+model Administrador {
+  id              String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  nombre          String
+  usuario         String   @unique
+  pinHash         String   @map("pin_hash")
+  activo          Boolean  @default(true)
+  fechaRegistro   DateTime @default(now()) @map("fecha_registro")
+
+  @@map("administradores")
+}
+
+model AsesorTienda {
+  asesorId        String   @map("asesor_id") @db.Uuid
+  nitTienda       String   @map("nit_tienda")
+  asignadoEn      DateTime @default(now()) @map("asignado_en")
+  asesor          Asesor   @relation(fields: [asesorId], references: [id], onDelete: Cascade)
+  tienda          Tienda   @relation(fields: [nitTienda], references: [nit], onDelete: Cascade)
+
+  @@id([asesorId, nitTienda])
+  @@map("asesores_tiendas")
+}
+
+model Inventario {
+  id              String              @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  nitTienda       String              @map("nit_tienda")
+  asesorId        String              @map("asesor_id") @db.Uuid
+  fecha           DateTime            @default(now())
+  observacion     String?
+  tienda          Tienda              @relation(fields: [nitTienda], references: [nit], onDelete: Restrict)
+  asesor          Asesor              @relation(fields: [asesorId], references: [id], onDelete: Restrict)
+  detalles        InventarioDetalle[]
+
+  @@index([nitTienda, fecha])
+  @@map("inventarios")
+}
+
+model InventarioDetalle {
+  id              String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  inventarioId    String     @map("inventario_id") @db.Uuid
+  productoId      String     @map("producto_id") @db.Uuid
+  cantidad        Int
+  inventario      Inventario @relation(fields: [inventarioId], references: [id], onDelete: Cascade)
+  producto        Producto   @relation(fields: [productoId], references: [id], onDelete: Restrict)
+
+  @@unique([inventarioId, productoId])
+  @@map("inventario_detalles")
 }
 
 model Venta {
